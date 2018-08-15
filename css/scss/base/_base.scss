@@ -15,6 +15,7 @@ body {
     color: $dark-gray;
     padding-top: 0;
     @include font-size(16px);
+    letter-spacing: -0.025em;
 }
 
 %off {

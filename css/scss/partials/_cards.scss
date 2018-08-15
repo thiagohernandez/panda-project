@@ -74,4 +74,9 @@
     border-bottom: none;
 }
 
+.card-icon {
+	.border-colored, .border-colored-hover:hover {
+		border-color: rgb(173,189,204)!important;
+	}
+}
  
