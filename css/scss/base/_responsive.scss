@@ -1,0 +1,56 @@
+@media (max-width: 990px) {
+	.navbar-brand {
+		width: 220px;
+		height: 67px;
+		background-size: 220px 67px;
+	}
+    .navbar-nav {
+        width: 100%;
+    }
+    .navbar-collapse .dropdown {
+        margin-bottom: calculateRem(24px);
+    }
+}
+    
+@media (max-width: 767px) {
+
+    html {
+        font-size: 14px;
+    }
+    .navbar-brand {
+    	width: 165px;
+		height: 50px;
+		background-size: 165px 50px;
+        margin-left: 15px;
+    }
+}
+
+// SMALL DESKTOP DISPLAYS
+@media (max-width: 419px) {
+    
+}
+
+// MEDIUM DESKTOP DISPLAYS
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+// LARGE DESKTOP DISPLAYS
+@media (min-width: 1199px) {
+    .wrapper {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        width: 100%;
+    }
+    .navbar {
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        max-width: 986px;
+    }
+}
+

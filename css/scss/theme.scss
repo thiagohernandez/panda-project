@@ -1,0 +1,50 @@
+// BOOTSTRAP - If you want in the same .CSS file
+//
+//@import "bootstrap/bootstrap.3.3.6/bootstrap"; // version 3.3.6
+//
+//@import "bootstrap/bootstrap.4.0.0/bootstrap"; // version 4.0.0
+//
+// try this features. compile this two versions of bootstrap
+
+// COMMON IMPORTS
+//@import "config/font-face"; If you have a webfonts in some directory active this line and edit this file
+@import "config/variables";
+@import "config/mixins";
+
+// BASE
+@import "base/base";
+@import "base/header";
+
+// PARTIALS
+@import "partials/type";
+@import "partials/buttons";
+@import "partials/forms";
+@import "partials/sections";
+@import "partials/tables";
+@import "partials/cards";
+@import "partials/ui";
+@import "partials/home";
+
+// PLUGINS - If exists
+//@import "plugins/5collumns";
+//@import "plugins/owl-theme";
+//@import "plugins/animate";
+//@import "plugins/animate-devices";
+//@import "plugins/fontawesome/font-awesome";
+//@import "plugins/slick";
+
+// FOOTER
+@import "base/footer";
+
+// RESPONSIVE
+@import "base/responsive";
+
+
+
+
+
+
+
+
+
+

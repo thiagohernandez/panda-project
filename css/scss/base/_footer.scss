@@ -1,0 +1,18 @@
+.nav-footer {
+	padding-left: 0;
+	list-style: none;
+	a {
+		color: rgba(255,255,255,0.5);
+		font-weight: $font-weight-bold;
+		@include font-size(13px);
+	} 
+}
+
+.footer-dashboard {
+	.copyright {
+		font-weight: 400;
+		@include font-size(11px);
+		color: $gray;
+	}
+}
+

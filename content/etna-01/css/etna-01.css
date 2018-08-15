@@ -1,0 +1,132 @@
+
+/* Etna Demo Styles */
+
+	/* Page Fonts */
+	@import url(https://fonts.googleapis.com/css?family=Dosis:300,400,500,600);
+	@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+	.dosis{font-family: 'Dosis', sans-serif !important;}
+	.badscript{font-family: 'Bad Script', cursive !important;}
+
+	body{ font-family: 'Dosis', sans-serif; font-weight: 400; letter-spacing: 1px; color:#6c6c6c;}
+	body *{outline:none;}
+
+
+/* COLORS
+================================================== */
+
+	/* Colored */
+	.colored, .colored-hover:hover{ color:#b4a697 !important; }
+	.bg-colored, .bg-colored-hover:hover{ background-color:#b4a697 !important;}
+	.border-colored, .border-colored-hover:hover{ border-color:#b4a697 !important; }
+
+	/* Colored1 */
+	.colored1, .colored1-hover:hover{ color:#a4a8b2 !important; }
+	.bg-colored1, .bg-colored1-hover:hover{ background-color:#a4a8b2 !important; }
+	.border-colored1, .border-colored1-hover:hover{ border-color:#a4a8b2 !important; }
+
+	/* Colored2 */
+	.colored2, .colored2-hover:hover{ color:#eae3dc !important; }
+	.bg-colored2, .bg-colored2-hover:hover{ background-color:#eae3dc !important; }
+	.border-colored2, .border-colored2-hover:hover{ border-color:#eae3dc !important; }
+
+	::selection{ background-color:#b4a697; }
+
+/* Other Colors */
+
+	/* Soft Backgrounds */
+	.bg-soft-colored:before{background-color:rgba(180,166,151,0.7);}
+	.bg-soft-colored1:before{background-color:rgba(107,113,129,0.9);}
+	.bg-soft-colored2:before{background-color:rgba(36,37,42,0.8);}
+	.qdr-hover:before,
+
+	/* Hover effect colors */
+	.qdr-hover:after,
+	.qdr-hover-1:before,
+	.qdr-hover-1-left:before,
+	.qdr-hover-1-right:before,
+	.qdr-hover-1-bottom:before,
+	.qdr-hover-2:before,.qdr-hover-2-vertical:before,
+	.qdr-hover-2-rotate:before{
+		background-color:#4c5260;
+	}
+	/* Tooltip buttons on services */
+	.services-with-product .services-body li a{
+		background-color:#b4a697;
+	}
+
+/* ETNA VERSION MAIN STYLES
+================================================== */
+
+/* ETNA NAVIGATION */
+	#navigation.side-menu.white .nav li a{ font-size: 12px; text-transform: uppercase; font-weight: 600; }
+	#navigation.side-menu.white-drop .nav li.dropdown-toggle ul.dropdown-menu li a{ color:#5a5a5a; font-size: 12px; }
+	#navigation.side-menu .search input{ font-size: 12px; text-transform: uppercase; }
+	/* Mobile Navigation background and hover/active colors */
+	#mobile-navigation{ background-color:#26272c; }
+	#mobile-navigation a:active,
+	#mobile-navigation a:focus,
+	#mobile-navigation a:hover,
+	#mobile-navigation li.active a,
+	#mobile-navigation li.active a.touchme,
+	#mobile-navigation .dropdown-menu a{
+		background-color:#202125;
+	}
+
+/* ETNA TITLES */
+	.title{ color:#6e6e6e; font-size:35px; font-weight: normal; text-transform: uppercase; padding:0; margin:0 0 25px 0; }
+	.title.light-title{ color:#d5d5d5; }
+	.description{ color:#696868; line-height: 26px; font-size:17px; padding:0; margin:30px auto 0; }
+	.description.light-title{ color:#d1d1d1; }
+
+		@media only screen and (max-width: 960px){
+			.title{max-width: 95% !important;}
+			.description{max-width: 95% !important;}
+		}
+
+/* ETNA HOME */
+/* Page Note */
+	#home .page-note{ top: -90px; z-index: 100; position: relative; }
+	#home .page-note .left-note{ border-left:1px solid; line-height: 22px; font-size:15px; max-width: 250px; padding:0 0 0 40px; float:left; position: relative; }
+	#home .page-note .home-socials{ float:right; position: relative; top:20px; padding-right: 40px; }
+	#home .page-note .home-socials a{ width: 30px; font-size:16px; margin-right: 10px; height: 33px; border:1px solid transparent; background:transparent; opacity: 0.7; display: inline-block; text-align: center; line-height: 32px; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; transition: all 0.4s; }
+	#home .page-note .home-socials a:hover{ border-color:rgba(255,255,255,0.2); background-color:rgba(165,165,165,0.2); }
+	#home .page-note .home-socials a:last-child{ margin-right: 0; }
+	/* Media screen for Page Note */
+	@media only screen and (max-width: 560px){
+		#home .page-note .left-note,#home .page-note .home-socials{padding:0 !important; float: none; margin:0 auto; text-align:center; border:none; top:0 !important;}
+		#home .page-note{top:-120px;}
+	}
+	@media only screen and (max-height: 560px){
+		#home .page-note .left-note{margin-top:25px;}
+	}
+
+/* ETNA CATEGORIES */
+	#categories { position: relative; background-color:#fcfcfc; }
+	#categories .cbp-l-caption-alignLeft{ width: 100%; height: 100%; display: table; }
+	#categories .cbp-caption-zoom .cbp-caption-activeWrap{ background: transparent; opacity: 1; }
+	#categories .cbp-caption-defaultWrap{ -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
+	#categories .cbp-item:hover .cbp-caption-defaultWrap{ transform: scale(1.05); }
+	#categories .cbp-caption-defaultWrap img{ opacity: 0.2; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
+	#categories .cbp-item:hover .cbp-caption-defaultWrap img{ opacity: 1; }
+	#categories .cbp-l-caption-alignLeft .cbp-l-caption-body{ display: table-cell; vertical-align: middle; text-align: center; color: white; position: relative; top:0; text-shadow:2px 2px 2px rgba(0,0,0,0.1); }
+	#categories h2.title{ color:white; font-size:23px; padding:0; margin:0; position: relative; }
+	#categories p.desc{ font-size:15px; margin:0; color:#e8e8e8; font-weight: 500; position: relative; }
+	#categories .cbp-item:hover .cbp-l-caption-alignLeft .cbp-l-caption-body h2{ opacity: 0; margin-left:50px; }
+	#categories .cbp-item:hover .cbp-l-caption-alignLeft .cbp-l-caption-body p{ opacity: 0; margin-left:-50px; }
+	/* Categories and sliding hover's first step color */
+	#categories .cbp-caption,.qdr-hover:after{
+		background-color:#6b7181;
+	}
+/* ETNA WORKS */
+	#works .cbp-caption-activeWrap{ background-color:#212121; }
+	#works .cbp-caption-activeWrap h2{ color:#b2b2b2; font-size:22px; margin:0; padding:0; margin-bottom:7px; }
+	#works .cbp-caption-activeWrap p{ font-size:16px; margin:0; padding:0; }
+	#works .cbp-item:hover .cbp-caption-defaultWrap{ transform: scale(1.0);}
+	/* filters */
+	#works #filters.cbp-l-filters-text .cbp-filter-item{font-family:inherit !important; font-size:17px; font-weight: 400; margin-top:50px;}
+
+/* Footer bottom color */
+	footer.classic_footer .footer-bottom,
+	footer.classic_footer ul li a:hover{
+		background-color:#24252a;
+	}

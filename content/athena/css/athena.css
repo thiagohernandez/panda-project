@@ -1,0 +1,187 @@
+
+/* Athena Demo Styles
+================================================== */
+
+	/* Page Fonts */
+	@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
+	@import url('https://fonts.googleapis.com/css?family=Merriweather:300i');
+	.rubik{ font-family: 'Rubik', sans-serif !important;}
+	.merriweather{ font-family: 'Merriweather', serif !important;}
+
+	/* Body Options */
+	body{ font-family: 'Rubik', sans-serif; font-weight: 400; letter-spacing: 0px; }
+	body *{outline:none !important;}
+
+/* COLORS
+================================================== */
+
+	/* Colored */
+	.colored, .colored-hover:hover, .soft-video-play-btn{ color:#81c43a !important; }
+	.bg-colored, .bg-colored-hover:hover{ background-color:#81c43a !important; }
+	.border-colored, .border-colored-hover:hover{ border-color:#81c43a !important; }
+
+	/* Colored1 */
+	.colored1, .colored1-hover:hover{ color:#799e52 !important; }
+	.bg-colored1, .bg-colored1-hover:hover{ background-color:#799e52 !important; }
+	.border-colored1, .border-colored1-hover:hover{ border-color:#799e52 !important; }
+
+	/* Colored2 */
+	.colored2, .colored2-hover:hover{ color:#a9c091 !important; }
+	.bg-colored2, .bg-colored2-hover:hover{ background-color:#a9c091 !important; }
+	.border-colored2, .border-colored2-hover:hover{ border-color:#a9c091 !important; }
+
+	::selection{ background-color:#81c43a; }
+
+/* Other Colors */
+
+	#home .hades .tp-bullet.selected{ background-color:#81c43a; }
+
+	.bg-soft-colored:before{
+		background-color:rgba(147,199,34,0.9);
+	}
+
+    .strip-timeline .dates div:hover,
+    .strip-timeline .dates div.active{ color:#81c43a; }
+    .strip-timeline .dates div:hover:before,
+    .strip-timeline .dates div.active:before{ background-color: #81c43a; }
+    .strip-timeline .dates div:hover:after,
+    .strip-timeline .dates div.active:after{ border-color: #81c43a; }
+
+    .qdr-hover-5:before,
+    .cbp-slider-next, .cbp-slider-prev{ background-color:#81c43a; }
+    .cbp-l-filters-buttonCenter .cbp-filter-counter:after{ border-top-color: #81c43a; }
+    .cbp-l-filters-buttonCenter .cbp-filter-counter,
+    .cbp-l-grid-masonry-projects .cbp-caption-activeWrap{ background-color:#81c43a }
+
+    .cbp-l-filters-buttonCenter .cbp-filter-item.cbp-filter-item-active{ border-color:#81c43a; }
+    .cbp-l-filters-buttonCenter .cbp-filter-item.cbp-filter-item-active,
+   	#works .works-container .item .works-link:hover{ color: #81c43a; }
+
+    .qdr-hover:before,
+    .custom-slider.strip-dots > .slick-dots li.slick-active button{
+    	background-color:#81c43a;
+    }
+
+    .bg-gradient{
+	    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93c823+0,82aa18+100 */
+		background: #93c823; /* Old browsers */
+		background: -moz-linear-gradient(45deg,  #93c823 0%, #82aa18 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(45deg,  #93c823 0%,#82aa18 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(45deg,  #93c823 0%,#82aa18 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93c823', endColorstr='#82aa18',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+
+	/* Hover Colors */
+	.qdr-hover:after{background-color:#363636;}
+	.qdr-hover-1:before,
+	.qdr-hover-1-left:before,
+	.qdr-hover-1-right:before,
+	.qdr-hover-1-bottom:before{background-color:rgba(0,0,0,0.1);}
+	.qdr-hover-2:before,.qdr-hover-2-vertical:before{background-color:#5a604b;}
+	.qdr-hover-2-rotate:before{background-color:#5a604b;}
+
+
+
+/* ATHENA VERSION MAIN STYLES
+================================================== */
+
+	#navigation.side-menu .nav li a{ font-size: 12px; font-weight: 500; }
+	#navigation.side-menu.white-drop .nav li a{ color:#333; }
+
+	/* Search */
+	#navigation.side-menu .search{ padding: 10px 15px; }
+	#navigation.side-menu .search input{ background-color:rgba(240,240,240,0.2); padding:13px 14px; color:#444; font-size: 13px; border-radius: 5px; border:1px solid rgba(15,15,15,0.1); }
+	#navigation.side-menu .search input:focus{ background-color:rgba(250,250,250,0.8); border:1px solid rgba(15,15,15,0.15); }
+	#navigation.side-menu .search ::-webkit-input-placeholder {color: #888}
+	#navigation.side-menu .search :-moz-placeholder {color: #888}
+	#navigation.side-menu .search ::-moz-placeholder {color: #888}
+	#navigation.side-menu .search :-ms-input-placeholder {color: #888}
+
+
+/* ATHENA TITLES */
+	.page-title{ color:#3b3b3b; font-size:38px; font-weight: 300; text-transform: uppercase; padding:0; margin:0 auto 30px; }
+	.page-title.little{ font-size:25px; }
+	.page-title.light-title{ color:#d5d5d5; }
+	.page-subtitle{color:#ababab; font-size:20px; font-weight: 300; padding:0; margin:0;}
+	.page-description{ color:#868686; line-height: 26px; font-weight: 300; font-size:15px; padding:0; margin:20px auto 0; }
+	.page-description.light-title{ color:#d1d1d1; }
+
+		@media only screen and (max-width: 960px){
+			.page-title{ max-width: 95% !important; font-size: 30px}
+			.page-description{ max-width: 95% !important;}
+		}
+
+		@media only screen and (max-width: 600px){
+			.page-title{ font-size:22px; }
+		}
+
+/* ATHENA HOME */
+	#home .hades .tp-bullet{ width: 10px; height: 10px; border-radius: 100%; background: #888; border:3px solid #fff; opacity: 0.9; }
+	#home .hades .tp-bullet:hover{opacity: 1;}
+
+/* ATHENA FACTS */
+	#facts{ margin:100px 0 0; position: relative; }
+	/* Left */
+	#facts .left-details{ float: left; width: 67%; height: auto; padding:100px 100px 80px; }
+	#facts .left-details .description{ margin-top:30px; max-width: 660px; line-height: 25px; }
+	/* Buttons */
+	#facts .left-details .buttons{ margin: 25px 0 10px -7px; }
+	#facts .left-details .buttons a{ display: inline-block; padding:11px 18px 11px 7px; margin-right:11px; font-size:25px; position: relative; font-weight: inherit; line-height: 21px; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; transition: all 0.4s; }
+	#facts.second-text-type .left-details .buttons a{ font-size:23px; }
+	#facts .left-details .buttons a span{ display: block; font-size:17px; }
+	#facts.second-text-type .left-details .buttons a span{ font-size:15px; }
+	#facts .left-details .buttons a:first-child{ margin-left:0; }
+	#facts .left-details .buttons a:hover{ padding-left:18px; margin-right:0; background-color: rgba(0,0,0,0.05); }
+	/* Facts */
+	#facts .facts-container .fact{ display: inline-block; margin: 10px 20px 10px 0; padding-right: 40px; border-right:1px solid rgba(255,255,255,0.2); cursor: default; }
+	#facts .facts-container .fact:last-child{ border-right: none; padding-right: 10px; margin-right: 0; }
+	#facts .facts-container h1.factor{ font-weight: inherit; font-size:45px; margin:0; padding: 0; }
+	#facts .facts-container h3{ font-weight: inherit; font-size:22px; margin:8px 0; padding: 0; }
+
+	/* Right Image */
+	#facts .right-image{ float: left; width: 33%; height: 100%; overflow: hidden; position: absolute; right: 0; }
+
+		@media only screen and (max-width: 1400px){
+			#facts .left-details{ padding:50px 30px; }
+		}
+		@media only screen and (max-width: 1050px){
+			#facts .left-details{ width: 100%; height: auto; float: none; }
+			#facts .right-image{ position: relative; width: 60%; height: 500px; float: none; margin:0 auto; }
+		}
+		@media only screen and (max-width: 650px){
+			#facts .right-image{ width: 100%; height: 550px; }
+			#facts .facts-container .fact{ border-right: none; margin:10px 0; }
+		}
+		@media only screen and (max-width: 360px){
+			#facts .right-image{ height: 400px; }
+		}
+
+
+/* ATHENA WORKS */
+	#works{ padding:100px 0; }
+	#works .works-container{ margin:100px 0 0; font-family: inherit; }
+	#works .cbp-caption-defaultWrap{ -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1); }
+	#works .item .works-link{ width: 50px; height: 50px; line-height: 50px; font-size: 17px; color: white; margin:0 5px; display: inline-block; background:transparent; border:1px solid white; border-radius: 100%; text-align: center; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; transition: all 0.4s; }
+	#works .item .works-link:hover{ background-color:white; color:#333; }
+	#works .cbp-l-grid-masonry-projects-title{ text-transform: uppercase; font-size: 18px; margin:15px auto 5px; color:#848484; font-weight: 400; }
+	#works .cbp-l-grid-masonry-projects-title:hover{ opacity: 0.7;}
+	#works .cbp-item:hover .cbp-caption-activeWrap{ opacity: 0.9; }
+	/* Slider buttons on item */
+	#works .cbp-slider-next, #works .cbp-slider-prev{ opacity:.8; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; transition: all 0.4s; }
+	#works .cbp-slider-next:hover, #works .cbp-slider-prev:hover{ opacity: 1; }
+	.cbp-l-grid-masonry-projects-title, .cbp-l-filters-buttonCenter .cbp-filter-counter, .cbp-l-grid-masonry-projects-desc{ font-family: inherit; }
+
+
+/* ATHENA CONTACT */
+	#contact_form .half input, #contact_form .half button{ width: 45%; width:calc(50% - 10px); float: left; margin-right:20px; }
+	#contact_form .half button{ margin-right:0px; }
+	#contact_form .half input:last-child{ margin-right:0; }
+	#contact_form input, #contact_form textarea, #contact_form button{ width: 100%; border:1px solid #ececec; background:#fdfdfd; padding:12px 14px; text-transform: uppercase; outline: none; margin:8px 0; font-size:14px; color:#8c8c8c; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; }
+	#contact_form textarea{ min-height: 150px; max-height: 150px; max-width: 100%; }
+	#contact_form input:hover, #contact_form textarea:hover, #contact_form input:focus, #contact_form textarea:focus{ border-color:#dbdbdb; }
+	#contact_form .error_warning, #contact_form .error_warning:hover, #contact_form .error_warning:focus{ border-color:#c23b3b; }
+	.dark-section #contact_form input,.dark-section #contact_form textarea,.dark-section #contact_form button{  border:1px solid #444;  background:#222;  color:white; }
+	.dark-section #contact_form input:hover,.dark-section #contact_form textarea:hover,.dark-section #contact_form input:focus,.dark-section #contact_form textarea:focus{ border-color:#555; }
+		@media only screen and (max-width: 641px){
+			#contact_form .half input, #contact_form .half button{ width: 100%; float: none; margin-right:0; }
+		}

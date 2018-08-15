@@ -1,0 +1,66 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+    font-weight: $font-weight-bold;
+}
+
+h1 {
+    color: $primary-color;
+    @include font-size(42px);
+    font-weight: 600;
+}
+
+h2 {
+    color: $secondary-color;
+    @include font-size(32px);
+    font-weight: 600;
+}
+
+h3 {
+    color: $primary-color;
+    @include font-size(24px);
+    font-weight: 600;
+}
+
+h4 {
+    color: $tertiary-color;
+    @include font-size(18px);
+    font-weight: 600;
+}
+
+h5 {
+    color: $tertiary-color;
+    @include font-size(13px);
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.5em;
+    margin-bottom: calculateRem(24px);
+}
+
+.title-page {
+    color: $primary-color;
+    @include font-size(24px);
+    font-weight: 600;
+    margin-top: calculateRem(42px);
+    margin-bottom: calculateRem(24px);
+    letter-spacing: -0.03em;
+}
+
+.title-smaller {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.modal-title {
+    @include font-size(18px);
+}
+
+.text-green {
+    color: $green;
+}
+
+.text-red {
+    color: $red;
+}

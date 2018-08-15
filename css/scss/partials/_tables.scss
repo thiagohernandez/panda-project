@@ -1,0 +1,63 @@
+.table-portafolio.table td, .table-portafolio.table th {
+    padding: .5rem;
+    vertical-align: middle;
+    @include font-size(13px);
+    color: $dark-gray;
+    font-weight: 400;
+}
+.table-portafolio.table th {
+	@include font-size(13px);
+    color: $gray;	
+    font-weight: 600;
+}
+
+.table-portafolio.table {
+	.badge {
+		min-width: 120px;
+		text-align: center;
+		@include font-size(11px);
+		font-weight: 600;
+		text-transform: uppercase;
+	    padding: 8px 4px;
+    	line-height: 1.5em;
+    	border-radius: 2px;
+    	&.badge-info, &.badge-danger, &.badge-success {
+    		background-color: $porcelain;
+    	}
+    	&.badge-danger {
+    		color: $red;
+    	}
+    	&.badge-info {
+    		color: $blue;
+    	}
+    	&.badge-success {
+    		color: $green;
+    	}
+	}
+    .profitability.positive,
+	.tint-value__green {
+		color: $green-darker;
+	}
+    .profitability.negative,
+	.tint-value__red {
+		color: $red;
+	}
+}
+
+@media (max-width: 767px) {
+	.table-portafolio.table {
+		.badge {
+			min-width: 90px;
+		}
+	}
+}
+
+.table-hover.table-portafolio tbody tr:hover {
+    background-color: rgba(0,0,0,.020);
+    .badge {
+    	&.badge-info, &.badge-danger, &.badge-success {
+    		background-color: darken($porcelain, 3%);
+    	}
+    }
+}
+
