@@ -64,3 +64,11 @@ p {
 .text-red {
     color: $red;
 }
+
+.text-normal {
+    text-transform: none!important;
+}
+
+.text-right {
+    text-align: right;
+}

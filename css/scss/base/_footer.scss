@@ -16,3 +16,13 @@
 	}
 }
 
+.brand-footer {
+	width: 136px;
+	height: 42px;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+	background-size: 136px 42px;
+	@include background-image('logotipo-broker-panda');
+	float: right;
+}
+

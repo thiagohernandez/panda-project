@@ -44,6 +44,23 @@
 	}
 }
 
+.profitability.positive,
+.tint-value__green {
+    color: $green-darker;
+}
+.profitability.negative,
+.tint-value__red {
+    color: $red;
+}
+
+
+.table-hover tbody tr.spacer-table td {
+    padding: 2px;    
+}
+.table-hover tbody tr.spacer-table:hover {
+    background-color: transparent;
+}
+
 @media (max-width: 767px) {
 	.table-portafolio.table {
 		.badge {
