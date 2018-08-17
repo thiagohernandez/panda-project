@@ -72,3 +72,13 @@ p {
 .text-right {
     text-align: right;
 }
+
+.text-primary {
+    color: $primary-color;
+}
+.text-secondary {
+    color: $secondary-color;
+}
+.text-tertiary {
+    color: $tertiary-color;
+}

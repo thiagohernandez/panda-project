@@ -65,6 +65,16 @@
 	background-repeat: no-repeat;
 }
 
+.bg-app {
+	background-image: url('../img/app-broker-panda-3.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.border-bottom-ice-age {
+	border-bottom: 1px solid $ice-age;
+}
 
 
 .bg-finger-on-screen {

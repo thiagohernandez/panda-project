@@ -96,6 +96,7 @@ a {
   .padding__inner {
     padding: 4rem 2rem;
   }
+  .bg-app,
   .bg-login {
     h2 {
       color: #fff;
@@ -120,6 +121,10 @@ a {
     margin: auto;
     margin-top: 62px;
   }
+}
+
+.ov-hidden {
+  overflow: hidden;
 }
 
 /*

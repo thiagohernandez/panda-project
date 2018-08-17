@@ -63,7 +63,6 @@ jQuery(document).ready(function() {
     //añadir color en los indices del día
     $('.tint-value').each(function() {
         var actualNumber = parseFloat($(this).text());
-        console.log(actualNumber);
         if (actualNumber < 0 ) {
             $(this).addClass('tint-value__red');
         } else {
@@ -180,6 +179,14 @@ jQuery(document).ready(function() {
             }, 600);
         }
     });
+
+    //Open modal
+    $('.tourStart').on( "click", function() {
+        console.log('oi');
+        introJs().start();
+    });    
+    
+
 
 					
 });	//ready

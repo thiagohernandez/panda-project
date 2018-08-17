@@ -7,6 +7,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
 
+        <link rel="icon" type="image/png" href="favicon.png" />
+
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -44,7 +46,7 @@
 						<a class="nav-link" href="panda-academy.html">PandaAcademy</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="javascript:void(0);" onclick="javascript:introJs().start();"><i class="far fa-lightbulb"></i></a>
+						<a class="nav-link tourStart" href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Emprezar Tour"><i class="far fa-lightbulb"></i></a>
 					</li>
 				</ul>
 				<div class="dropdown">
@@ -72,7 +74,7 @@
     		<div class="container-fluid">
 	    		<div class="row">
 	    			<div class="col-md-6">
-	    				<div class="card card-alerts card-alerts_primary" data-step="1" data-intro="Antes de todo empieze configurando los alertas, con ellos tu estarás seguro que no va perder ninguna oportunidad de compra o venta.">
+	    				<div class="card card-alerts card-alerts_primary tourTrigger" id="stepOne" data-step="1" data-intro="Antes de todo empieze configurando los alertas, con ellos tu estarás seguro que no va perder ninguna oportunidad de compra o venta.">
 							<div class="card-header">
 								Configurar alertas
 								<button type="button" class="close triggerCardClose" aria-label="Close">
@@ -164,7 +166,7 @@
     		<div class="container-fluid">
 
     			<div class="row">
-					<div class="col-md-12" data-step="2" data-intro="Cada portafolio esta relacionado con un mercado, una vez que elijas un mercada estará todo listo para empezar a crear tu lista de alertas.">
+					<div class="col-md-12" id="stepTwo" data-step="2" data-intro="Cada portafolio esta relacionado con un mercado, una vez que elijas un mercada estará todo listo para empezar a crear tu lista de alertas.">
 						<h4>Mercados</h4>
     					<div class="markets-slider">
 							<div>
@@ -237,7 +239,7 @@
 	    		<div class="row">
 	    			
     				<div class="col-md-6">
-	    				<div class="card card-white card-portafolio" data-step="3" data-intro="De acuerdo con nuestas analisis y cruzamento de datos esta es la mejor seleción del mercado que has elegido. Con nuestro TopTen garantizamos los mejores rendimentos y con eso potencializamos tus ganancias.">
+	    				<div class="card card-white card-portafolio" id="stepThree" data-step="3" data-intro="De acuerdo con nuestas analisis y cruzamento de datos esta es la mejor seleción del mercado que has elegido. Con nuestro TopTen garantizamos los mejores rendimentos y con eso potencializamos tus ganancias.">
 							<div class="card-body">
 
 								<div class="card-header">
@@ -271,7 +273,7 @@
 									      <td>IBEX</td>
 									      <td><span class="tint-value">-0.71</span></td>
 									      <td><span class="badge badge-danger">Vender</span></td>
-									      <td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa" data-step="5" data-intro="Con ese botón es posible añadir esa empresa en tu portafolio."><i class="far fa-plus-square"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa" id="stepFive" data-step="5" data-intro="Con ese botón es posible añadir esa empresa en tu portafolio."><i class="far fa-plus-square"></i></a></td>
 									    </tr>
 									    <tr>
 									      <th scope="row">02</th>
@@ -354,7 +356,7 @@
     				</div>	
     			</div><!-- ./col-md-6 -->
     			<div class="col-md-6">
-	    				<div class="card card-white card-portafolio" data-step="4" data-intro="Aqui lo tienes tu portafolio, estas son las empresas que recibirás alertas de cuando debes actuar. Sea comprar, vender, o no actuar.">
+	    				<div class="card card-white card-portafolio" id="stepFour" data-step="4" data-intro="Aqui lo tienes tu portafolio, estas son las empresas que recibirás alertas de cuando debes actuar. Sea comprar, vender, o no actuar.">
 							<div class="card-body">
 
 								<div class="card-header">
@@ -410,7 +412,7 @@
 							</div>
 									
 							<div class="padding-small clearfix">
-								<a href="portafolio.html#add-company" class="btn btn-primary float-right" data-step="5" data-intro="Si tienes dentro de ti ese espirito aventurero, puedes añadir cualquier empresa de un mercado en concreto en tu portafolio.">Añadir empresa</a>
+								<a href="portafolio.html#add-company" class="btn btn-primary float-right" id="stepSix" data-step="6" data-intro="Si tienes dentro de ti ese espirito aventurero, puedes añadir cualquier empresa de un mercado en concreto en tu portafolio.">Añadir empresa</a>
 							</div>
 	    				</div>
     				</div>	
@@ -889,12 +891,11 @@
 
 
 
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/vendor/jquery-3.3.1.min.js"></script>
+    <!-- <script src="js/vendor/jquery-3.3.1.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
 
@@ -908,7 +909,6 @@
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
-
 
     <script src="js/frontend.js"></script>
 

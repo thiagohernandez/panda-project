@@ -12,7 +12,26 @@
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="css/theme.min.css">
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="css/plugins.css?v=2.2"/>
+        <!-- Revolution Slider -->
+        <link rel="stylesheet" href="css/revolutionslider/settings.css" />
+        <link rel='stylesheet' href='js/revolutionslider/revolution-addons/particles/css/revolution.addon.particles.css?ver=1.0.3' type='text/css' media='all' />
+        <!-- Main Styles -->
+        <link rel="stylesheet" href="css/theme.css?v=2.2"/>
+        <!-- Color Skins -->
+        <link rel="stylesheet" href="css/skins/default.css" />
+        <!-- Page Styles -->
+        <link rel="stylesheet" href="content/rise-01/css/rise-01.css" />
+        <!-- Font-awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+        <style type="text/css">
+            .blurslider-gradient{background:-webkit-linear-gradient(left,#9357cc 0%,#2989d8 50%,#2cc99d 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}.blurslider-button{background:-webkit-linear-gradient(left,#9357cc 0%,#2989d8 50%,#2cc99d 100%)}
+        </style>
+      	<!-- End Page Styles -->
+
+      	<link rel="stylesheet" href="css/theme.min.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -63,8 +82,16 @@
 	    		<div class="row">
 	    			<div class="col-md-6">
 	    				<div class="padding__inner">
-	    					<h1>Login</h1>
+	    					<h1>Crear cuenta</h1>
 	    					<form>
+	    						<div class="form-group">
+									<div class="input-group input-group__transparent">
+										<div class="input-group-prepend">
+											<div class="input-group-text"><i class="far fa-user"></i></div>
+										</div>
+										<input type="text" class="form-control" id="inlineFormInputGroupName" placeholder="Nombre">
+									</div>
+								</div>
 	    						<div class="form-group">
 									<div class="input-group input-group__transparent">
 										<div class="input-group-prepend">
@@ -73,29 +100,31 @@
 										<input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email">
 									</div>
 								</div>
-								
 								<div class="form-group">
 									<div class="input-group input-group__transparent">
 										<div class="input-group-prepend">
 											<div class="input-group-text"><i class="fas fa-key"></i></div>
 										</div>
-										<input type="password" class="form-control" id="inlineFormInputGroupUsername" placeholder="Password">
+										<input type="password" class="form-control" id="inlineFormInputGroupUsername" placeholder="Contraseña">
 									</div>	
 								</div>
-								<!-- <button type="submit" class="btn btn-primary">Acceder</button> -->
-								<a href="dashboard.html" class="btn btn-primary">Acceder</a>
-								<p class="my-4">
-									<a href="javascript:void(0);" class="link-stats" data-toggle="modal" data-target="#modalRecoverPassword">
-										He olvidado mi clave
-									</a>
-								</p>
-								<hr>
-								<h5 class="title-smaller my-4">¿No tienes una cuenta?</h5>
-								<a href="crear-cuenta.html" class="btn btn-light-gray">Crear cuenta</a>
+								<div class="form-group">
+									<div class="input-group input-group__transparent">
+										<div class="input-group-prepend">
+											<div class="input-group-text"><i class="fas fa-key"></i></div>
+										</div>
+										<input type="password" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Repetir contraseña">
+									</div>	
+								</div>
+								<!-- <button type="submit" class="btn btn-primary">Crear cuenta</button> -->
+								<a href="dashboard.html" class="btn btn-primary">Crear cuenta</a>
+								<hr class="divider">
+								<h5 class="title-smaller my-4">Ya tengo una cuenta</h5>
+								<a href="login.html" class="btn btn-light-gray">Login</a>
 							</form>
 	    				</div>
 	    			</div>
-	    			<div class="col-md-6 bg-login bg-cover">
+	    			<div class="col-md-6 bg-app bg-cover bg-soft bg-soft-dark7">
 	    				<div class="padding__inner">
 	    					<h2>Nuestros pandas nunca duermen</h2>
 							<p><strong>Inversiones optimizadas 24/7</strong> por nuestros robotraders.</p>
