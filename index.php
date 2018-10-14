@@ -159,7 +159,7 @@
 		
 		
 		<!-- PAGE OPTIONS - You can find special scripts for this version -->
-		<!--script type="text/javascript" src="content/rise-01/js/plugins.js?v=2.1"></script-->
+		<script type="text/javascript" src="content/rise-01/js/plugins.js?v=2.1"></script>
 		<!-- MAIN SCRIPTS - Classic scripts for all theme -->
 		<script type="text/javascript" src="js/scripts.js?v=2.2"></script>
 

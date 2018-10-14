@@ -33,7 +33,12 @@
 								</p>
 								<hr>
 								<h5 class="title-smaller my-4"><?= txt('notengo') ?></h5>
-								<a href="crear-cuenta.html" class="btn btn-light-gray"><?= txt('create_account') ?></a>
+								<?php if ($language_name != "en") { ?>
+									<a href="/home/crear-cuenta" class="btn btn-light-gray"><?= txt('create_account') ?></a>
+								<?php }else{ ?>
+									<a href="/home/crear-cuenta?lang=en" class="btn btn-light-gray"><?= txt('create_account') ?></a>
+								<?php } ?>
+								
 							</form>
 	    				</div>
 	    			</div>

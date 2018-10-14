@@ -6,7 +6,12 @@
 				<p class="white"><?= txt('nuestra_inteligencia') ?></p>
 			</div>
 			<div class="col-md-3 align-self-center">
-				<a href="porque-broker-panda.html" class="btn btn-primary btn-block"><?= txt('como_funciona') ?></a>
+			<?php if ($language_name != "en") { ?>
+				<a href="/home/porque-broker-panda" class="btn btn-primary btn-block"><?= txt('como_funciona') ?></a>
+			<?php }else{ ?>
+				<a href="/home/porque-broker-panda?lang=en" class="btn btn-primary btn-block"><?= txt('como_funciona') ?></a>
+			<?php } ?>
+				
 			</div>
 		</div>
 	</div>
