@@ -1,0 +1,170 @@
+/* BUTTON */
+.btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 24px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-family: $font-heading;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.0075em;
+    @include font-size(12px);
+    @include transition(all .3s ease-in);
+}
+
+.btn {
+    @extend .btn;
+    color: $primary-color;
+    &:hover {
+        color: $tertiary-color;
+        background-color: transparent;
+    }
+}
+
+.btn-minimal {
+    @extend .btn;
+    color: $gray;
+    border: 1px solid rgba($gray, 0.3);
+    background-color: transparent;
+    &:hover {
+        color: $gray;
+        border: 1px solid rgba($gray, 1);
+    }
+}
+
+.btn-outline {
+    @extend .btn;
+    color: $dark-gray;
+    border: 1px solid $ice-age;
+    background-color: transparent;
+    &:hover {
+        color: $black-brand;
+        border: 1px solid $gray;
+    }
+    &.btn-disabled {
+        font-style: normal;
+        border: none;
+        color: $gray;
+        &:hover {
+            cursor: default;
+            color: $gray;
+        }
+    }
+}
+
+.btn-primary {
+    @extend .btn;
+    @extend .gradient-primary;
+    color: white;
+    -webkit-box-shadow:         0px 8px 24px 0px rgba(50, 50, 50, 0.1), 0px 18px 16px -12px rgba(34, 117, 241, 0.25);
+    -moz-box-shadow:         0px 8px 24px 0px rgba(50, 50, 50, 0.1), 0px 18px 16px -12px rgba(34, 117, 241, 0.25);
+    box-shadow:         0px 8px 24px 0px rgba(50, 50, 50, 0.1), 0px 18px 16px -12px rgba(34, 117, 241, 0.25);
+    &:hover {
+        color: white;
+        @extend .gradient-primary-hover;
+    }
+}
+
+.btn-green {
+    @extend .btn;
+    @extend .gradient-green;
+    color: white;
+    -webkit-box-shadow:         0px 8px 24px 0px rgba(50, 50, 50, 0.1), 0px 18px 16px -12px rgba(120, 242, 204, 0.65);
+    -moz-box-shadow:         0px 8px 24px 0px rgba(50, 50, 50, 0.1), 0px 18px 16px -12px rgba(120, 242, 204, 0.65);
+    box-shadow:         0px 8px 24px 0px rgba(50, 50, 50, 0.1), 0px 18px 16px -12px rgba(120, 242, 204, 0.65);
+    &:hover {
+        color: white;
+        @extend .gradient-green;
+        -webkit-box-shadow:         0px 8px 24px 0px rgba(50, 50, 50, 0.1), 0px 18px 16px -6px rgba(120, 242, 204, 0.65);
+        -moz-box-shadow:         0px 8px 24px 0px rgba(50, 50, 50, 0.1), 0px 18px 16px -6px rgba(120, 242, 204, 0.65);
+        box-shadow:         0px 8px 24px 0px rgba(50, 50, 50, 0.1), 0px 18px 16px -6px rgba(120, 242, 204, 0.65);
+    }
+}
+
+
+.btn-secondary {
+    @extend .btn;
+    color: white;
+    background-color: $secondary-color;
+    &:hover {
+        color: white;
+        background-color: darken($secondary-color, 10%);
+    }
+}
+
+.btn-tertiary {
+    @extend .btn;
+    color: white;
+    background-color: $tertiary-color;
+    &:hover {
+        color: white;
+        background-color: darken($tertiary-color, 10%);
+    }
+}
+
+.btn-light-gray {
+    @extend .btn;
+    color: $dark-gray;
+    background-color: lighten($light-gray, 10%);
+    &:hover {
+        color: white;
+        background-color: $gray;
+    }
+}
+
+.btn-rounded {
+    @extend .btn;
+    padding: 5px 14px;
+    border-radius: 16px;
+    @include font-size(11px);
+}
+
+.btn-sm {
+    padding: 4px 8px;
+    @include font-size(10px);
+    letter-spacing: 0.05em;
+}
+
+.btn-large {
+    border-radius: 3px;
+    padding: calculateRem(16px) calculateRem(24px);
+}
+
+.btn-delete-item {
+    @extend .btn;
+    padding: 4px 8px;
+    @include font-size(16px);
+    border-radius: 2px;
+    color: $gray;
+    border: none;
+    &:hover {
+        color: #fff;
+        background-color: $red;
+    }
+}
+
+.btn-add-item {
+    @extend .btn;
+    padding: 4px 8px;
+    @include font-size(16px);
+    border-radius: 2px;
+    color: $gray;
+    border: none;
+    &:hover {
+        color: #fff;
+        background-color: $green;
+    }
+}
+.btn-charts-item {
+    @extend .btn;
+    padding: 4px 8px;
+    @include font-size(16px);
+    border-radius: 2px;
+    color: $gray;
+    border: none;
+    &:hover {
+        color: #fff;
+        background-color: $primary-color;
+    }
+}

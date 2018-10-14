@@ -1,0 +1,19 @@
+<NotepadPlus>
+    <Project name="Panda homepage">
+        <File name="cheatsheet.txt" />
+        <File name="index.php" />
+        <File name="_book.php" />
+        <Folder name="language">
+            <File name="language\english.php" />
+            <File name="language\spanish.php" />
+            <File name="elements\how_it_works_es.php" />
+            <File name="elements\how_it_works_en.php" />
+        </Folder>
+        <Folder name="elements">
+            <File name="elements\menu_bar.php" />
+            <File name="elements\backdrop.php" />
+            <File name="elements\page_body.php" />
+            <File name="elements\panda_school.php" />
+        </Folder>
+    </Project>
+</NotepadPlus>

@@ -1,0 +1,28 @@
+.nav-footer {
+	padding-left: 0;
+	list-style: none;
+	a {
+		color: rgba(255,255,255,0.5);
+		font-weight: $font-weight-bold;
+		@include font-size(13px);
+	} 
+}
+
+.footer-dashboard {
+	.copyright {
+		font-weight: 400;
+		@include font-size(11px);
+		color: $gray;
+	}
+}
+
+.brand-footer {
+	width: 136px;
+	height: 42px;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+	background-size: 136px 42px;
+	@include background-image('logotipo-broker-panda');
+	float: right;
+}
+

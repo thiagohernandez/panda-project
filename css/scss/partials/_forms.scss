@@ -1,0 +1,41 @@
+.form-control {
+	border-radius: 2px;
+	@include font-size(14px);
+	font-size: 400;
+    padding: .75rem .75rem;
+    font-weight: 600;
+}
+
+.appearance {
+    -webkit-appearance:     none;
+    -moz-appearance:        none;
+    -ms-appearance:         none;
+    -o-appearance:          none;
+    appearance:             none;
+    background-image: url('../img/frontend/bg-select.png');
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.8rem + 2px);
+    @extend .appearance;
+}
+
+form {
+	label {
+		font-size: 11px;
+		color: $gray;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-weight: 600;
+	}
+}
+
+.input-group.input-group__transparent {
+	.input-group-text {
+		border-radius: 2px;
+		border-right: 1px solid #fff;
+		background-color: transparent;
+	}	
+}
