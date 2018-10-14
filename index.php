@@ -55,6 +55,9 @@
 	if (isset($_SERVER['REDIRECT_QUERY_STRING'])) {
 		$rdr = explode('&',$_SERVER['REDIRECT_QUERY_STRING']);
 		$page_to_serve = $rdr[0];
+		if ($page_to_serve == "lang=en"){
+				$page_to_serve = "";
+		}
 	}
 ?>
 <!doctype html>
@@ -94,6 +97,13 @@
         <link rel="stylesheet" href="css/theme.min.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<!-- <script src="js/vendor/jquery-3.3.1.min.js"></script> -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+
+		
     </head>
 	<body>
 
@@ -114,11 +124,7 @@
 	<?php include ("./elements/header.php"); ?>
 
 	<?php
-		// Serve the correct page based on the URL
-		if ($page_to_serve == 'book') {
-			include ("./_book.php");
-		}
-		else if ($page_to_serve == 'porque-broker-panda') {
+		if ($page_to_serve == 'porque-broker-panda') {
 			include ("./porque-broker-panda.php");
 		}else if ($page_to_serve == 'panda-academy') {
 			include ("./panda-academy.php");
@@ -135,41 +141,31 @@
 			//include ("./elements/panda_school.php");
 		}
 	?>
-	
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- <script src="js/vendor/jquery-3.3.1.min.js"></script> -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/vendor/popper.min.js"></script>
+		<script src="js/vendor/bootstrap.bundle.min.js"></script>
 
-    <script src="js/vendor/popper.min.js"></script>
-    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="js/vendor/ie10-viewport-bug-workaround.js"></script>
+		<script src="js/vendor/webfontloader.min.js"></script>
+		
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/vendor/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/vendor/webfontloader.min.js"></script>
-    
-
-    
+		
 
 
-    <!-- REVOLUTION SLIDER -->
-    <script type="text/javascript" src="js/revolutionslider/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="js/revolutionslider/jquery.themepunch.tools.min.js"></script>
-    <script type='text/javascript' src='js/revolutionslider/revolution-addons/particles/js/revolution.addon.particles.min.js?ver=1.0.3'></script>
-    
-    
-    <!-- PAGE OPTIONS - You can find special scripts for this version -->
-    <script type="text/javascript" src="content/rise-01/js/plugins.js?v=2.1"></script>
-    <!-- MAIN SCRIPTS - Classic scripts for all theme -->
-    <script type="text/javascript" src="js/scripts.js?v=2.2"></script>
+		<!-- REVOLUTION SLIDER -->
+		<script type="text/javascript" src="js/revolutionslider/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="js/revolutionslider/jquery.themepunch.tools.min.js"></script>
+		<script type='text/javascript' src='js/revolutionslider/revolution-addons/particles/js/revolution.addon.particles.min.js?ver=1.0.3'></script>
+		
+		
+		<!-- PAGE OPTIONS - You can find special scripts for this version -->
+		<!--script type="text/javascript" src="content/rise-01/js/plugins.js?v=2.1"></script-->
+		<!-- MAIN SCRIPTS - Classic scripts for all theme -->
+		<script type="text/javascript" src="js/scripts.js?v=2.2"></script>
 
 
-    <script src="js/frontend.js"></script>
-    <!-- END JS FILES -->
-
-
-
+		<script src="js/frontend.js"></script>
+		<!-- END JS FILES -->
     </body>
 </html>
 

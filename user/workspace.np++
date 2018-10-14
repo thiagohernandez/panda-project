@@ -1,0 +1,72 @@
+<NotepadPlus>
+    <Project name="Panda User">
+        <File name="config\routes.php" />
+        <Folder name="App">
+            <File name="app\Pixie.php" />
+            <File name="app\Controller\Pages.php" />
+            <File name="app\UserPixie.php" />
+        </Folder>
+        <Folder name="Config">
+            <File name="config\auth.php" />
+            <File name="config\db.php" />
+        </Folder>
+        <Folder name="Models">
+            <File name="app\Model\User.php" />
+            <File name="app\Model\Role.php" />
+            <File name="app\Model\Company.php" />
+        </Folder>
+        <Folder name="Views">
+            <File name="app\View\Helper.php" />
+            <Folder name="user">
+                <File name="app\View\user\_template.php" />
+                <File name="app\View\user\pages\dashboard.php" />
+                <File name="app\View\user\pages\bbva.php" />
+                <Folder name="elements">
+                    <File name="app\View\user\elements\menu.php" />
+                    <File name="app\View\user\elements\flash.php" />
+                    <File name="app\View\user\elements\exchange.php" />
+                </Folder>
+                <Folder name="login">
+                    <File name="app\View\user\pages\login\login.php" />
+                    <File name="app\View\user\pages\login\forgot_password.php" />
+                    <File name="app\View\user\pages\login\recover_password.php" />
+                    <File name="app\View\user\pages\login\reset_password.php" />
+                </Folder>
+            </Folder>
+        </Folder>
+        <Folder name="Controllers">
+            <File name="app\Controller\Pages.php" />
+            <File name="app\Controller\Data.php" />
+            <File name="app\Controller\Login.php" />
+            <File name="app\Controller\User.php" />
+            <Folder name="plugins">
+                <File name="app\Controller\Plugins\Utils.php" />
+                <File name="app\Controller\Plugins\Language.php" />
+            </Folder>
+        </Folder>
+        <Folder name="Web">
+            <Folder name="js">
+                <File name="web\js\dashboard.js" />
+                <File name="web\js\chart_callbacks.js" />
+                <File name="web\js\stats.js" />
+            </Folder>
+            <Folder name="css">
+                <File name="web\css\styles.css" />
+            </Folder>
+        </Folder>
+        <Folder name="PHPixie">
+            <File name="phpixie\core\Pixie.php" />
+            <File name="phpixie\modules\Auth.php" />
+            <File name="phpixie\core\Config.php" />
+            <File name="phpixie\core\Controller.php" />
+            <File name="phpixie\core\Cookie.php" />
+            <File name="phpixie\core\Debug.php" />
+            <File name="phpixie\core\Response.php" />
+            <File name="phpixie\modules\ORM\Model.php" />
+            <File name="phpixie\core\Request.php" />
+            <File name="phpixie\core\Router.php" />
+            <File name="phpixie\core\Session.php" />
+            <File name="phpixie\core\View.php" />
+        </Folder>
+    </Project>
+</NotepadPlus>

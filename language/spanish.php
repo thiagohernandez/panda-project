@@ -244,6 +244,24 @@ class Spanish {
 		'nombre' => 'Nombre',
 		'mensaje' => 'Mensaje',
 		'siganos' => 'Síganos',
+		
+		//NUEVO DISEÑO LOGIN.PHP
+		'acceder' => 'Acceder',
+		'olvidadomiclave' => 'He olvidado mi clave',
+		'notengo' => '¿No tienes una cuenta?',
+		'nuncaduermen' => 'Nuestros pandas nunca duermen',
+		'optimizadas247' => 'Inversiones optimizadas 24/7',
+		'pornuestrosrobo' => 'por nuestros robotraders.',
+		'alertaspanda' => 'Alertas Panda',
+		'porcorreoelectronico' => 'por correo electrónico y a teléfonos moviles.',
+		'resetpassword' => 'Reset password',
+		'introducetucorreo' => 'Introduce tu correo electronico para recibir un vinculo para borrar tu contraseña:',
+		'enviarcorreo' => 'Enviar correo',
+		
+		//NUEVA CREAR CUENTA.PHP
+		'contrasena' => 'Contraseña',
+		'repcontrasena' => 'Repetir contraseña',
+		'yatengo' => 'Ya tengo una cuenta',
 	);
 
 	public function get($s) {
