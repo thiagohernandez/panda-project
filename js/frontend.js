@@ -186,11 +186,14 @@ jQuery(document).ready(function() {
         introJs().start();
     });    
     
+<<<<<<< HEAD
 	var pathname = window.location.pathname;
 	console.log(pathname);
 	if (pathname == "/"){
 		$("#home_header").addClass("active");
 	}
+=======
+>>>>>>> c05e314cb04d50ebd48c619aaca9d6b9e94031a3
 
 
 					
