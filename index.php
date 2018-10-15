@@ -81,7 +81,7 @@
         <!-- Color Skins -->
         <link rel="stylesheet" href="css/skins/default.css" />
         <!-- Page Styles -->
-        <link rel="stylesheet" href="content/rise-01/css/rise-01.css" />
+        <link rel="stylesheet" href="css/components/rise-01.css" />
         <!-- Font-awesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
@@ -160,7 +160,7 @@
     
     
     <!-- PAGE OPTIONS - You can find special scripts for this version -->
-    <script type="text/javascript" src="content/rise-01/js/plugins.js?v=2.1"></script>
+    <script type="text/javascript" src="js/components/plugins.js?v=2.1"></script>
     <!-- MAIN SCRIPTS - Classic scripts for all theme -->
     <script type="text/javascript" src="js/scripts.js?v=2.2"></script>
 
