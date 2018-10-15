@@ -1,0 +1,60 @@
+#require-js {
+	font-size: 32px;
+	display: block;
+	text-align: center;
+}
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+.nowrap {
+	white-space: nowrap;
+}
+
+/* Patch bootstrap modal popup */
+.modal-title {
+	font-weight: 600;
+}
+button.close {
+	position: relative;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0px;
+	padding: 4px;
+	left: 4px;
+	bottom: 4px;
+	border-radius: 6px;
+	border: 1px solid #ddd;
+}
+button.close:hover {
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+@media screen and (min-width: 500px) {
+	.modal {
+		text-align: center;
+		padding: 0!important;
+	}
+	.modal-content {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.modal:before {
+		content: '';
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+		margin-right: -4px; /* Adjusts for spacing */
+	}
+
+	.modal-dialog {
+		display: inline-block;
+		text-align: left;
+		vertical-align: middle;
+	}
+}

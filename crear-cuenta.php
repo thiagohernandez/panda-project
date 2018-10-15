@@ -5,14 +5,14 @@
 	    		<div class="row">
 	    			<div class="col-md-6">
 	    				<div class="padding__inner">
-	    					<h1>Crear cuenta</h1>
+	    					<h1><?= txt('create_account') ?></h1>
 	    					<form>
 	    						<div class="form-group">
 									<div class="input-group input-group__transparent">
 										<div class="input-group-prepend">
 											<div class="input-group-text"><i class="far fa-user"></i></div>
 										</div>
-										<input type="text" class="form-control" id="inlineFormInputGroupName" placeholder="Nombre">
+										<input type="text" class="form-control" id="inlineFormInputGroupName" placeholder="<?= txt('nombre') ?>">
 									</div>
 								</div>
 	    						<div class="form-group">
@@ -28,7 +28,7 @@
 										<div class="input-group-prepend">
 											<div class="input-group-text"><i class="fas fa-key"></i></div>
 										</div>
-										<input type="password" class="form-control" id="inlineFormInputGroupUsername" placeholder="Contraseña">
+										<input type="password" class="form-control" id="inlineFormInputGroupUsername" placeholder="<?= txt('contrasena') ?>">
 									</div>	
 								</div>
 								<div class="form-group">
@@ -36,22 +36,22 @@
 										<div class="input-group-prepend">
 											<div class="input-group-text"><i class="fas fa-key"></i></div>
 										</div>
-										<input type="password" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Repetir contraseña">
+										<input type="password" class="form-control" id="inlineFormInputGroupUsername2" placeholder="<?= txt('repcontrasena') ?>">
 									</div>	
 								</div>
 								<!-- <button type="submit" class="btn btn-primary">Crear cuenta</button> -->
-								<a href="dashboard.html" class="btn btn-primary">Crear cuenta</a>
+								<a href="dashboard.html" class="btn btn-primary"><?= txt('create_account') ?></a>
 								<hr class="divider">
-								<h5 class="title-smaller my-4">Ya tengo una cuenta</h5>
-								<a href="login" class="btn btn-light-gray">Login</a>
+								<h5 class="title-smaller my-4"><?= txt('yatengo') ?></h5>
+								<a href="login" class="btn btn-light-gray"><?= txt('login') ?></a>
 							</form>
 	    				</div>
 	    			</div>
-	    			<div class="col-md-6 bg-app bg-cover bg-soft bg-soft-dark7">
+	    			<div class="col-md-6 bg-login bg-cover">
 	    				<div class="padding__inner">
-	    					<h2>Nuestros pandas nunca duermen</h2>
-							<p><strong>Inversiones optimizadas 24/7</strong> por nuestros robotraders.</p>
-							<p><strong>Alertas Panda</strong> por correo electrónico y a teléfonos moviles.</p>
+	    					<h2><?= txt('nuncaduermen') ?></h2>
+							<p><strong><?= txt('optimizadas247') ?></strong> <?= txt('pornuestrosrobo') ?></p>
+							<p><strong><?= txt('alertaspanda') ?></strong> <?= txt('porcorreoelectronico') ?></p>
 	    				</div>
 	    			</div>
 	    		</div>
@@ -65,13 +65,13 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content ">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Reset password</h5>
+					<h5 class="modal-title" id="exampleModalLabel"><?= txt('resetpassword') ?></h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
 				<div class="modal-body">
-					<p>Introduce tu correo electronico para recibir un vinculo para borrar tu contraseña:</p>
+					<p><?= txt('introducetucorreo') ?></p>
 					<form>
 						<div class="form-group">
 							<div class="input-group input-group__transparent">
@@ -83,7 +83,7 @@
 						</div>
 						
 						<!-- <button type="submit" class="btn btn-primary">Entrar</button> -->
-						<a href="dashboard.html" class="btn btn-primary">Enviar correo</a>
+						<a href="dashboard.html" class="btn btn-primary"><?= txt('enviarcorreo') ?></a>
 					</form>
 				</div>
 			</div>

@@ -40,9 +40,9 @@
 <!-- END FOOTER -->
     <!-- Contact us button -->
 	<?php if ($language_name != "en") { ?>
-		<a href="/home/contacto" class="drop-msg click-effect dark-effect"><i class="far fa-envelope"></i></a>
+		<a target="_blank" href="/home/contacto" class="drop-msg click-effect dark-effect"><i class="far fa-envelope"></i></a>
 	<?php }else{ ?>
-		<a href="/home/contacto?lang=en" class="drop-msg click-effect dark-effect"><i class="far fa-envelope"></i></a>
+		<a target="_blank" href="/home/contacto?lang=en" class="drop-msg click-effect dark-effect"><i class="far fa-envelope"></i></a>
 	<?php } ?>
 
 <!-- Back To Top -->

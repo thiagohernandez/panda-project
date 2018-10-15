@@ -10,7 +10,12 @@
 			  </div>
 		  </div>
 		  <div class="col-md-4 align-self-center">
-			<a href="panda-academy.html" class="btn btn-primary btn-block"><?= txt('aprendecon') ?><span class="text-normal"><?= txt('pandaacademy') ?></span></a>
+			<?php if ($language_name != "en") { ?>
+				<a href="/home/panda-academy" class="btn btn-primary btn-block"><?= txt('aprendecon') ?><span class="text-normal"><?= txt('pandaacademy') ?></span></a>
+			<?php }else{ ?>
+				<a href="/home/panda-academy?lang=en" class="btn btn-primary btn-block"><?= txt('aprendecon') ?><span class="text-normal"><?= txt('pandaacademy') ?></span></a>
+			<?php } ?>
+			
 		  </div>
 		</div>
 	  </div>
