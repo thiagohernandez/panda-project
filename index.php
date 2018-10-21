@@ -144,38 +144,20 @@
 		<script src="js/vendor/popper.min.js"></script>
 		<script src="js/vendor/bootstrap.bundle.min.js"></script>
 
-<<<<<<< HEAD
-    <!-- REVOLUTION SLIDER -->
-    <script type="text/javascript" src="js/revolutionslider/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="js/revolutionslider/jquery.themepunch.tools.min.js"></script>
-    <script type='text/javascript' src='js/revolutionslider/revolution-addons/particles/js/revolution.addon.particles.min.js?ver=1.0.3'></script>
-    
-    
-    <!-- PAGE OPTIONS - You can find special scripts for this version -->
-    <script type="text/javascript" src="js/components/plugins.js?v=2.1"></script>
-    <!-- MAIN SCRIPTS - Classic scripts for all theme -->
-    <script type="text/javascript" src="js/scripts.js?v=2.2"></script>
-=======
+
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 		<script src="js/vendor/ie10-viewport-bug-workaround.js"></script>
 		<script src="js/vendor/webfontloader.min.js"></script>
-		
->>>>>>> fcb178433f3d20182c1c4f4807775f6e42aae31f
-
-		
-
-
-		<!-- REVOLUTION SLIDER -->
-		<script type="text/javascript" src="js/revolutionslider/jquery.themepunch.revolution.min.js"></script>
-		<script type="text/javascript" src="js/revolutionslider/jquery.themepunch.tools.min.js"></script>
-		<script type='text/javascript' src='js/revolutionslider/revolution-addons/particles/js/revolution.addon.particles.min.js?ver=1.0.3'></script>
-		
-		
-		<!-- PAGE OPTIONS - You can find special scripts for this version -->
-		<script type="text/javascript" src="content/rise-01/js/plugins.js?v=2.1"></script>
-		<!-- MAIN SCRIPTS - Classic scripts for all theme -->
-		<script type="text/javascript" src="js/scripts.js?v=2.2"></script>
-
+	    <!-- REVOLUTION SLIDER -->
+	    <script type="text/javascript" src="js/revolutionslider/jquery.themepunch.revolution.min.js"></script>
+	    <script type="text/javascript" src="js/revolutionslider/jquery.themepunch.tools.min.js"></script>
+	    <script type='text/javascript' src='js/revolutionslider/revolution-addons/particles/js/revolution.addon.particles.min.js?ver=1.0.3'></script>
+	    
+	    
+	    <!-- PAGE OPTIONS - You can find special scripts for this version -->
+	    <script type="text/javascript" src="js/components/plugins.js?v=2.1"></script>
+	    <!-- MAIN SCRIPTS - Classic scripts for all theme -->
+	    <script type="text/javascript" src="js/scripts.js?v=2.2"></script>
 
 		<script src="js/frontend.js"></script>
 		<!-- END JS FILES -->

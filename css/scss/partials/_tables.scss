@@ -42,6 +42,7 @@
 	.tint-value__red {
 		color: $red;
 	}
+
 }
 
 .profitability.positive,
@@ -69,6 +70,8 @@
 	}
 }
 
+
+
 .table-hover.table-portafolio tbody tr:hover {
     background-color: rgba(0,0,0,.020);
     .badge {
@@ -76,5 +79,12 @@
     		background-color: darken($porcelain, 3%);
     	}
     }
+}
+.table-hover.table-portafolio tbody tr.no-signal {
+    opacity: 0.9;
+    background-color: rgba(0,0,0,.020);
+}
+.table-hover.table-portafolio tbody tr.no-signal:hover {
+    background-color: rgba(0,0,0,.035);
 }
 
