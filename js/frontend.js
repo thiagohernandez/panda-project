@@ -182,7 +182,7 @@ jQuery(document).ready(function() {
 
     //Open modal
     $('.tourStart').on( "click", function() {
-        console.log('oi');
+        //console.log('oi');
         introJs().start();
     });    
     

@@ -141,7 +141,7 @@
 			//include ("./elements/panda_school.php");
 		}
 	?>
-		<script src="js/vendor/popper.min.js"></script>
+		<!-- <script src="js/vendor/popper.min.js"></script> -->
 		<script src="js/vendor/bootstrap.bundle.min.js"></script>
 
 
