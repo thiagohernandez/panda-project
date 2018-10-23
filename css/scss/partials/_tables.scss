@@ -87,4 +87,11 @@
 .table-hover.table-portafolio tbody tr.no-signal:hover {
     background-color: rgba(0,0,0,.035);
 }
+.table-hover.table-portafolio tbody tr.signal {
+   background-color: rgba(228, 241, 254, 0.3);
+   td, th {
+    color: rgba(31, 58, 147, 1); 
+   }
+   
+}
 

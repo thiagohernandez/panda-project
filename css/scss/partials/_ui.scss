@@ -119,7 +119,10 @@ $circle-size: 200px;
 }
 
 .markets-slider {
-	margin-bottom: calculateRem(24px);	
+	&.slick-slider {
+		margin-bottom: calculateRem(52px);	
+	}
+	
 	.btn {
 		margin-right: calculateRem(15px);
 		margin-bottom: calculateRem(12px);	
