@@ -70,60 +70,48 @@
     	<div class="wrapper">
     		<div class="container-fluid">
 	    		<div class="row">
-	    			<div class="col-md-6">
-	    				
+
+	    			<div class="col-md-3">
 						<div class="card card-white card-alerts">
 							<div class="card-header">
-									Rendimiento promedio
-										<button type="button" class="close triggerCardClose" aria-label="Close">
-										  <span aria-hidden="true">&times;</span>
-										</button>
-								</div>
+								Rendimiento esperado
+							</div>
 							<div class="card-body">
-
-								
-								<div class="row">
-									<div class="col-5 col-sm-4 col-md-4 col-lg-3">
-										<div id="progress-plan">
-											<svg class="progress-radial" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												 viewBox="0 0 125 125" style="enable-background:new 0 0 125 125;" xml:space="preserve">
-												<circle class="stroke-external" cx="62.5" cy="62.5" r="56"/>
-												<circle class="stroke-internal" cx="62.5" cy="62.5" r="56" />
-											</svg>
-											<!-- stroke-dasharray="0" stroke-dashoffset="0" -->
-											<div id="plan-label">
-												<div class="plan-label__inner">
-													<span class="plan-label__used">9</span><small>/<span class="plan-label__avaliable">10</span></small>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-7 col-sm-8 col-md-8 col-lg-9">
-										<p><strong>BrokerPanda</strong> está monitorando <strong>12</strong> empresas en su portafólio.</p>
-										<a href="mi-cuenta.html?tab=subscription" class="btn btn-primary">Cambiar suscripción</a><em class="btn btn-outline btn-disabled">PLAN ACTUAL <strong>FREE</strong></em>
-										<hr>
-
-					    				<div class="compare-results__component sr-only">
-					    					<div class="compare-results__inner row">
-					    						<div class="col compare-results__my-results">
-					    							<h3 class="compare-results compare-results__portafolio-txt">RESULTADOS <br>TopTen BrokerPanda</h3>
-					    							<h4 class="compare-results__portafolio-number compare-results__portafolio-panda">+2,05</h4>
-					    						</div>
-					    						<div class="col compare-results__panda-results">
-					    							<h3 class="compare-results compare-results__panda-txt">RESULTADOS <br>Tu Portafólio</h3>
-					    							<h4 class="compare-results__portafolio-number">+2,05</h4>
-					    						</div>
-					    					</div>
-					    				</div>
-
-									</div>
-								</div>
-								
-								
+								<div class="rendimiento-esperado">24<span>%</span></div>
+								<p><strong>BrokerPanda</strong> está monitorando <strong>12</strong> empresas en su portafólio.</p>
+								<a href="mi-cuenta.html?tab=subscription" class="btn btn-primary">Cambiar suscripción</a><em class="btn btn-outline btn-disabled">PLAN ACTUAL <strong>FREE</strong></em>
 							</div>
 						</div>
-
     				</div>
+    				<div class="col-md-3">
+						<div class="card card-white card-alerts">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="card-header">
+										% positive positions
+									</div>
+									<div class="card-body">
+										<div class="padding-inner">
+											<canvas id="myChart" width="400" height="400"></canvas>
+											<p>53 Operations</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="card-header">
+										Profits/losses ratio
+									</div>
+									<div class="card-body">
+										<div class="padding-inner">
+											<canvas id="myChart2" width="400" height="400"></canvas>
+											<p>53 Operations</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+    				</div>
+
     				<div class="col-md-6">
     					<div class="card card-alerts card-alerts_primary tourTrigger" id="stepOne" data-step="1" data-intro="Antes de todo empieze configurando los alertas, con ellos tu estarás seguro que no va perder ninguna oportunidad de compra o venta.">
 							<div class="card-header">
@@ -853,11 +841,124 @@
     <script src="plugins/slick/slick.min.js"></script>
 
     <script src="plugins/introjs/intro.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+    
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 
     <script src="js/frontend.js"></script>
+
+
+    <!-- charts.js -->
+    <script>
+    	Chart.pluginService.register({
+			beforeDraw: function (chart) {
+				if (chart.config.options.elements.center) {
+	        //Get ctx from string
+	        var ctx = chart.chart.ctx;
+	        
+					//Get options from the center object in options
+	        var centerConfig = chart.config.options.elements.center;
+	      	var fontStyle = centerConfig.fontStyle || 'Arial';
+					var txt = centerConfig.text;
+	        var color = centerConfig.color || '#000';
+	        var sidePadding = centerConfig.sidePadding || 20;
+	        var sidePaddingCalculated = (sidePadding/100) * (chart.innerRadius * 2)
+	        //Start with a base font of 30px
+	        ctx.font = "30px " + fontStyle;
+	        
+					//Get the width of the string and also the width of the element minus 10 to give it 5px side padding
+	        var stringWidth = ctx.measureText(txt).width;
+	        var elementWidth = (chart.innerRadius * 2) - sidePaddingCalculated;
+
+	        // Find out how much the font can grow in width.
+	        var widthRatio = elementWidth / stringWidth;
+	        var newFontSize = Math.floor(30 * widthRatio);
+	        var elementHeight = (chart.innerRadius * 2);
+
+	        // Pick a new font size so it will not be larger than the height of label.
+	        var fontSizeToUse = Math.min(newFontSize, elementHeight);
+
+					//Set font settings to draw it correctly.
+	        ctx.textAlign = 'center';
+	        ctx.textBaseline = 'middle';
+	        var centerX = ((chart.chartArea.left + chart.chartArea.right) / 2);
+	        var centerY = ((chart.chartArea.top + chart.chartArea.bottom) / 2);
+	        ctx.font = fontSizeToUse+"px " + fontStyle;
+	        ctx.fillStyle = color;
+	        
+	        //Draw text in center
+	        ctx.fillText(txt, centerX, centerY);
+				}
+			}
+		});
+
+    	var data = {
+		    datasets: [{
+		        data: [20, 33],
+		        backgroundColor: ['#00b371', '#dedede']
+		    }],
+
+		    // These labels appear in the legend and in the tooltips when hovering different arcs
+		    labels: [
+		        'Profits',
+		        'Losses'
+		    ]
+		};
+		var options = {
+			cutoutPercentage: 80,
+			elements: {
+				center: {
+				text: '37%',
+	    	      color: '#00b371', // Default is #000000
+		          fontStyle: 'Poppins', // Default is Arial
+		          sidePadding: 60 // Defualt is 20 (as a percentage)
+				}
+			}
+		};
+
+    	var ctx = $("#myChart");
+
+    	var myDoughnutChart = new Chart(ctx, {
+		    type: 'doughnut',
+		    data: data, 
+		    options: options
+		});
+
+		var data2 = {
+		    datasets: [{
+		        data: [257.4, 55],
+		        backgroundColor: ['#00b371', '#dedede']
+		    }],
+
+		    // These labels appear in the legend and in the tooltips when hovering different arcs
+		    labels: [
+		        'Total profit',
+		        'Total loss'
+		    ]
+		};
+		var options2 = {
+			cutoutPercentage: 80,
+			elements: {
+				center: {
+				text: '82%',
+	    	      color: '#00b371', // Default is #000000
+		          fontStyle: 'Poppins', // Default is Arial
+		          sidePadding: 60 // Defualt is 20 (as a percentage)
+				}
+			}
+		};
+
+    	var ctx2 = $("#myChart2");
+
+    	var myDoughnutChart2 = new Chart(ctx2, {
+		    type: 'doughnut',
+		    data: data2, 
+		    options: options2
+		});
+
+	</script>
 
     </body>
 </html>
