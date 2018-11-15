@@ -13,11 +13,11 @@
 }
 
 .navbar-brand {
-	width: 170px;
-	height: 52px;
+	width: 201px;
+	height: 48px;
     margin-bottom: 0.4rem;
     margin-top: 0.4rem;
-	background-size: 170px 52px;
+	background-size: 100% 100%;
 	@include background-image('logotipo-broker-panda');
 }
 

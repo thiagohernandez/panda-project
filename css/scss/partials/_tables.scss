@@ -92,6 +92,14 @@
    td, th {
     color: rgba(31, 58, 147, 1); 
    }
-   
 }
-
+.table-hover.table-portafolio tbody tr.other {
+   background-color: rgba(0,0,0,.020);
+   th, td {
+    color: rgba($dark-gray, 0.75); 
+   }
+   
+   &:hover {
+        background-color: rgba(0,0,0,.040);
+   }
+}
