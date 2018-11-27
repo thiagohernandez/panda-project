@@ -15,6 +15,12 @@
               <!-- Background Image -->
               <img src="content/rise-01/images/home_01.jpg" alt="Image Background" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="0" class="rev-slidebg" data-no-retina>
               
+              <style>
+              .tp-caption.white.bold.slide-title.rs-parallaxlevel-1 {
+              	letter-spacing: 0;
+              	}
+          	</style>
+
               <!-- Layer -->
               <div class="tp-caption white bold slide-title rs-parallaxlevel-1"
               data-x="['left','center','center','center']"
@@ -59,9 +65,9 @@
               data-voffset="['92','220','198','210']">
                  <!-- Add Video link, it will be visible when upload files to server -->
 				 <?php if ($language_name != "en") { ?>
-					<a href="/home/crear-cuenta" class="lightbox slow lg-btn bold font-13 bg-colored white uppercase radius-lg qdr-hover-6 bs-lg-hover">
+					<a href="#pricing" class="lightbox slow lg-btn bold font-13 bg-colored white uppercase radius-lg qdr-hover-6 bs-lg-hover page-scroll">
 				<?php }else{ ?>
-					<a href="/home/crear-cuenta?lang=en" class="lightbox slow lg-btn bold font-13 bg-colored white uppercase radius-lg qdr-hover-6 bs-lg-hover">
+					<a href="#pricing" class="lightbox slow lg-btn bold font-13 bg-colored white uppercase radius-lg qdr-hover-6 bs-lg-hover page-scroll">
 				<?php } ?>
 
                     <?= txt('empieza') ?>
@@ -182,7 +188,7 @@
 						<h4 class="dark light no-pm"><?= txt('robots_advisors') ?></h4>
 						<div class="title-strips-over dark"></div>
 						<!-- Description -->
-						<p><strong><?= txt('batir') ?></p>
+						<p><strong><?= txt('batir') ?></strong><?= txt('batir2') ?></p>
 						<p><strong><?= txt('avisamos') ?></strong> <?= txt('cuando_comprar') ?></p>
 						<p><?= txt('alaapertura') ?></p>
 						<p><?= txt('podras_elegir') ?><strong><?= txt('masde500') ?></strong><?= txt('tbcommodityes') ?></p>
@@ -197,7 +203,10 @@
 
     <?php include ("./elements/banner_500_companys.php"); ?>
 
-
+    <style>
+    .fs-13 {
+    	font-size: 13px;}
+</style>
 	<section class="">
 		<div class="container">
 			<div class="row justify-content-center">

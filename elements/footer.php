@@ -17,18 +17,18 @@
 	</div>
 	<!-- End Container -->
 	<!-- Footer Bottom -->
-	<div class="footer-bottom bt-1 border-gray1 padding-regular">
+	<div class="footer-bottom bt-1 border-gray1 padding-regular" style="border-color: #eaeaea !important;">
 		<div class="container">
 			<div class="row clearfix t-center-xs">
 				<div class="col-sm-6 col-xs-12 table-im t-left height-auto-mobile t-center-xs">
-					<div class="v-middle fs-11">
+					<div class="v-middle fs-11" style="font-size: 11px;">
 						<a href="#" target="_blank" class="gray6-hover underline-hover"><?= txt('politicacookies') ?></a> | 
 						<a href="#" target="_blank" class="gray6-hover underline-hover"><?= txt('politicaprivacidad') ?></a>
 					</div>
 				</div>
 				<!-- Bottom Note -->
 				<div class="col-sm-6 col-xs-12 table-im t-right height-auto-mobile t-center-xs xxs-mt-mobile">
-					<p class="v-middle fs-11">
+					<p class="v-middle fs-11" style="font-size: 11px;">
 						<?php echo date("Y");?> © <?= txt('brokerpanda') ?>
 					</p>
 				</div>

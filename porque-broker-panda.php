@@ -15,116 +15,12 @@
     </section>
     <!-- END CONTENT -->
 
+    <style>
+    .fs-13 {
+        font-size: 13px;}
+</style>
 
-
-	<section class="">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-8 t-center">
-					<div class="title-strips-over dark sm-mt"></div>
-					<h2 class="extrabold-title"><?= txt('ventajas') ?></h2>
-					<h4 class="dark light no-pm xs-mb"><?= txt('algunasventajas') ?></h4>
-				</div>
-			</div>
-			<div class="row t-center">
-				<div class="col-md-3">
-                    <div class="stay slow xs-py click-effect dark-effect block card-icon">
-                        <span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
-                        <!-- Icon -->
-                        <div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
-                            <i class="fas fa-hand-holding-usd fs-26 bg-gradient text-background"></i>
-                        </div>
-                        <h4 class="xxs-mt"><?= txt('garantia_devolucion') ?></h4>
-                        <p class="fs-13"><?= txt('tanseguros') ?><strong><?= txt('tanseguros2') ?></strong><?= txt('tanseguros3') ?><strong><?= txt('tanseguros4') ?></strong>. <?= txt('tanseguros5') ?></p>
-                    </div>
-				</div>
-				<div class="col-md-3">
-					<div class="stay slow xs-py click-effect dark-effect block card-icon">
-                        <span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
-                        <!-- Icon -->
-                        <div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
-                            <i class="fas fa-dollar-sign fs-26 bg-gradient text-background"></i>
-                        </div>
-                        <h4 class="xxs-mt"><?= txt('costesminimos') ?></h4>
-                        <p class="fs-13"><?= txt('lastran1') ?></p>
-                        <p class="fs-13"><?= txt('lastran2') ?><strong><?= txt('lastran3') ?></strong><?= txt('lastran4') ?></p>
-                    </div>
-				</div>
-				<div class="col-md-3">
-					<div class="stay slow xs-py click-effect dark-effect block card-icon">
-                        <span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
-                        <!-- Icon -->
-                        <div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
-                            <i class="fas fa-wallet fs-26 bg-gradient text-background"></i>
-                        </div>
-                        <h4 class="xxs-mt"><?= txt('maximadiversificacion') ?></h4> 
-                        <p class="fs-13"><?= txt('libertadparaelegir') ?></p>
-                        <p class="fs-13"><?= txt('libertadparaelegircartera') ?><strong><?= txt('libertadparaelegircartera1') ?></strong><?= txt('libertadparaelegircartera2') ?></p>
-                    </div>
-				</div>
-				<div class="col-md-3">
-					<div class="stay slow xs-py click-effect dark-effect block card-icon">
-                        <span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
-                        <!-- Icon -->
-                        <div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
-                            <i class="fas fa-file-invoice-dollar fs-26 bg-gradient text-background"></i>
-                        </div>
-                        <h4 class="xxs-mt"><?= txt('liquidez') ?></h4>
-                        <p class="fs-13"><strong><?= txt('accesoinmediato') ?></strong><?= txt('accesoinmediato2') ?> <strong><?= txt('accesoinmediato3') ?></strong> <?= txt('accesoinmediato4') ?></p>
-                    </div>
-				</div>
-			</div>
-
-			<div class="row t-center">
-				<div class="col-md-3">
-					<div class="stay slow xs-py click-effect dark-effect block card-icon">
-                        <span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
-                        <!-- Icon -->
-                        <div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
-                            <i class="fas fa-users fs-26 bg-gradient text-background"></i>
-                        </div>
-                        <h4 class="xxs-mt"><?= txt('gestionactiva') ?></h4>
-                        <p class="fs-13"><?= txt('serselectivo') ?> <strong><?= txt('inteligenciaartificial') ?></strong><?= txt('teayudaraaganardinero') ?> </p>
-                    </div>
-				</div>
-				<div class="col-md-3">
-					<div class="stay slow xs-py click-effect dark-effect block card-icon">
-						<span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
-						<!-- Icon -->
-						<div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
-							<i class="fas fa-microphone-alt fs-26 bg-gradient text-background"></i>
-						</div>
-						<h4 class="xxs-mt"><?= txt('poderdecision') ?></h4>
-						<p class="fs-13"><?= txt('graciasanuestra') ?><strong><?= txt('recuperaraselcontrol') ?></strong><?= txt('recuperaraselcontrol2') ?></p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="stay slow xs-py click-effect dark-effect block card-icon">
-						<span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
-						<!-- Icon -->
-						<div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
-							<i class="far fa-calendar-check fs-26 bg-gradient text-background"></i>
-						</div>
-						<h4 class="xxs-mt"><?= txt('resultadoshistoricos') ?></h4>
-						<p class="fs-13"><strong><?= txt('desde2011') ?></strong><?= txt('desde2011-1') ?><strong><?= txt('desde2011-2') ?></strong><?= txt('desde2011-3') ?></p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="stay slow xs-py click-effect dark-effect block card-icon">
-						<span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
-						<!-- Icon -->
-						<div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
-							<i class="fas fa-money-check-alt fs-26 bg-gradient text-background"></i>
-						</div>
-						<h4 class="xxs-mt"><?= txt('rentabilidad12') ?></h4>
-						<p class="fs-13"><?= txt('obtenerpara') ?><strong><?= txt('conlosbeneficios') ?></strong></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-        <section class="slider-reasons">
+    <section class="slider-reasons">
 
         <!-- BOXES -->
         <div class="t-center custom-slider custom-dots c-resize" data-slick='{"dots": true, "autoplay": true, "autoplaySpeed": 3000, "arrows": false, "draggable":true, "slidesToShow": 4, "slidesToScroll": 1}'>
@@ -222,7 +118,6 @@
         </div>
 
     </section>
-
 
     <section class="map-table bg-pattern bg-animated" data-background="img/pages/bg-dotted-world-map.jpg">
         <div class="container">
@@ -460,7 +355,114 @@
             </div>
         </div>
     </section>
-    
+
+
+	<section class="">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-8 t-center">
+					<div class="title-strips-over dark sm-mt"></div>
+					<h2 class="extrabold-title"><?= txt('ventajas') ?></h2>
+					<h4 class="dark light no-pm xs-mb"><?= txt('algunasventajas') ?></h4>
+				</div>
+			</div>
+			<div class="row t-center">
+				<div class="col-md-3">
+                    <div class="stay slow xs-py click-effect dark-effect block card-icon">
+                        <span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
+                        <!-- Icon -->
+                        <div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
+                            <i class="fas fa-hand-holding-usd fs-26 bg-gradient text-background"></i>
+                        </div>
+                        <h4 class="xxs-mt"><?= txt('garantia_devolucion') ?></h4>
+                        <p class="fs-13"><?= txt('tanseguros') ?><strong><?= txt('tanseguros2') ?></strong><?= txt('tanseguros3') ?><strong><?= txt('tanseguros4') ?></strong>. <?= txt('tanseguros5') ?></p>
+                    </div>
+				</div>
+				<div class="col-md-3">
+					<div class="stay slow xs-py click-effect dark-effect block card-icon">
+                        <span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
+                        <!-- Icon -->
+                        <div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
+                            <i class="fas fa-dollar-sign fs-26 bg-gradient text-background"></i>
+                        </div>
+                        <h4 class="xxs-mt"><?= txt('costesminimos') ?></h4>
+                        <p class="fs-13"><?= txt('lastran1') ?></p>
+                        <p class="fs-13"><?= txt('lastran2') ?><strong><?= txt('lastran3') ?></strong><?= txt('lastran4') ?></p>
+                    </div>
+				</div>
+				<div class="col-md-3">
+					<div class="stay slow xs-py click-effect dark-effect block card-icon">
+                        <span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
+                        <!-- Icon -->
+                        <div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
+                            <i class="fas fa-wallet fs-26 bg-gradient text-background"></i>
+                        </div>
+                        <h4 class="xxs-mt"><?= txt('maximadiversificacion') ?></h4> 
+                        <p class="fs-13"><?= txt('libertadparaelegir') ?></p>
+                        <p class="fs-13"><?= txt('libertadparaelegircartera') ?><strong><?= txt('libertadparaelegircartera1') ?></strong><?= txt('libertadparaelegircartera2') ?></p>
+                    </div>
+				</div>
+				<div class="col-md-3">
+					<div class="stay slow xs-py click-effect dark-effect block card-icon">
+                        <span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
+                        <!-- Icon -->
+                        <div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
+                            <i class="fas fa-file-invoice-dollar fs-26 bg-gradient text-background"></i>
+                        </div>
+                        <h4 class="xxs-mt"><?= txt('liquidez') ?></h4>
+                        <p class="fs-13"><strong><?= txt('accesoinmediato') ?></strong><?= txt('accesoinmediato2') ?> <strong><?= txt('accesoinmediato3') ?></strong> <?= txt('accesoinmediato4') ?></p>
+                    </div>
+				</div>
+			</div>
+
+			<div class="row t-center">
+				<div class="col-md-3">
+					<div class="stay slow xs-py click-effect dark-effect block card-icon">
+                        <span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
+                        <!-- Icon -->
+                        <div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
+                            <i class="fas fa-users fs-26 bg-gradient text-background"></i>
+                        </div>
+                        <h4 class="xxs-mt"><?= txt('gestionactiva') ?></h4>
+                        <p class="fs-13"><?= txt('serselectivo') ?> <strong><?= txt('inteligenciaartificial') ?></strong><?= txt('teayudaraaganardinero') ?> </p>
+                    </div>
+				</div>
+				<div class="col-md-3">
+					<div class="stay slow xs-py click-effect dark-effect block card-icon">
+						<span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
+						<!-- Icon -->
+						<div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
+							<i class="fas fa-microphone-alt fs-26 bg-gradient text-background"></i>
+						</div>
+						<h4 class="xxs-mt"><?= txt('poderdecision') ?></h4>
+						<p class="fs-13"><?= txt('graciasanuestra') ?><strong><?= txt('recuperaraselcontrol') ?></strong><?= txt('recuperaraselcontrol2') ?></p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="stay slow xs-py click-effect dark-effect block card-icon">
+						<span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
+						<!-- Icon -->
+						<div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
+							<i class="far fa-calendar-check fs-26 bg-gradient text-background"></i>
+						</div>
+						<h4 class="xxs-mt"><?= txt('resultadoshistoricos') ?></h4>
+						<p class="fs-13"><strong><?= txt('desde2011') ?></strong><?= txt('desde2011-1') ?><strong><?= txt('desde2011-2') ?></strong><?= txt('desde2011-3') ?></p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="stay slow xs-py click-effect dark-effect block card-icon">
+						<span class="ink clicked" style="height: 400px; width: 400px; top: -111px; left: 21.5px;"></span>
+						<!-- Icon -->
+						<div class="stay circle border-double border-colored border-dashed icon-xl white m-auto">
+							<i class="fas fa-money-check-alt fs-26 bg-gradient text-background"></i>
+						</div>
+						<h4 class="xxs-mt"><?= txt('rentabilidad12') ?></h4>
+						<p class="fs-13"><?= txt('obtenerpara') ?><strong><?= txt('conlosbeneficios') ?></strong></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 	<?php include ("./elements/banner_500_companys.php"); ?>

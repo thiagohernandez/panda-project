@@ -47,7 +47,7 @@
 							</form>
 	    				</div>
 	    			</div>
-	    			<div class="col-md-6 bg-login bg-cover">
+	    			<div class="col-md-6 bg-app bg-cover bg-soft bg-soft-dark7">
 	    				<div class="padding__inner">
 	    					<h2><?= txt('nuncaduermen') ?></h2>
 							<p><strong><?= txt('optimizadas247') ?></strong> <?= txt('pornuestrosrobo') ?></p>

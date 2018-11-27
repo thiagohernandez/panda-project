@@ -42,7 +42,7 @@
 				<!-- Box Top -->
 				<div class="bg-gradient white xs-py">
 					<h4 class="extrabold no-pm white"><?= txt('goldcontinent') ?></h4>
-					<h5 class="light no-pm white"><?= txt('goldcontinent') ?></h5>
+					<h5 class="light no-pm white"><?= txt('brokersfamily') ?></h5>
 					<!-- Price -->
 					<h3 class="white"><span class="text-lg2 extrabold">3</span>€</h3>
 					<p class="uppercase white"><?= txt('semanaeuro') ?></p>

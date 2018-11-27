@@ -70,7 +70,25 @@
     	<div class="wrapper">
     		<div class="container-fluid">
 	    		<div class="row">
-
+	    			<style>
+		    			.img-center {
+		    				margin: auto;
+		    			}
+		    			#daily-ops {
+		    				color: #5837c1;
+		    			}
+		    			.tgrp .gain {
+		    				color: #1bb273!important;
+		    			}
+		    			.tgrp .loss {
+		    				color: #e62254!important;
+		    			}
+		    			.card-header h5 {
+						    margin-top: 1rem;
+						    padding-bottom: 1rem;
+						    border-bottom: 1px solid rgba(50,50,90,0.1);
+					    }
+	    			</style>
 	    			<div class="col-md-12">
 	    				<div class="card card-white card-alerts">
 
@@ -92,9 +110,7 @@
 									</div>
 									<div class="card-body">
 										<div class="padding-inner">
-											<span class="gan-graph">
-												<div id="ganancia"><svg width="200" height="192" viewBox="0 0 200 192"><rect x="80" y="20" height="107.03164847261718" width="20" fill="#ada" stroke-width="1px" stroke="#080"></rect><rect x="80" y="53.05767491842163" height="73.97397355419554" width="20" fill="#2c2" stroke-width="1px" stroke="#080"></rect><path d="M 80,53.05767491842163	h -8" stroke="#080"></path><text x="30" y="8" font-weight="bold" font-size="x-small">Biggest profit: 26.87%</text><text x="12" y="47.05767491842163" font-weight="bold" font-size="x-small">Avg. profit:</text><text x="36" y="59.05767491842163" font-weight="bold" font-size="x-small">13.5%</text><rect x="100" y="127.03164847261718" height="44.96835152738281" width="20" fill="#daa" stroke-width="1px" stroke="#800"></rect><rect x="100" y="127.03164847261718" height="6.638782811537605" width="20" fill="#c22" stroke-width="1px" stroke="#800"></rect><path d="M 120,133.67043128415477	h 8" stroke="#800"></path><text x="68" y="189" font-weight="bold" font-size="x-small">Biggest loss: 11.29%</text><text x="132" y="127.67043128415477" font-weight="bold" font-size="x-small">Avg. loss:</text><text x="136" y="139.67043128415477" font-weight="bold" font-size="x-small">1.7%</text></svg></div>
-											</span>
+											<img src="img/frontend/fake-chart-bars.jpg" class="img-fluid img-center">
 										</div>
 									</div>
 								</div>
@@ -121,8 +137,7 @@
 											</div>
 											<div class="card-body">
 												<div class="padding-inner">
-													<canvas id="myChart" width="400" height="400"></canvas>
-													<p>53 Operations</p>
+													<img src="img/frontend/fake-chart-001.jpg" class="img-fluid img-center">
 												</div>
 											</div>
 										</div>
@@ -132,8 +147,7 @@
 											</div>
 											<div class="card-body">
 												<div class="padding-inner">
-													<canvas id="myChart2" width="400" height="400"></canvas>
-													<p>53 Operations</p>
+													<img src="img/frontend/fake-chart-002.jpg" class="img-fluid img-center">
 												</div>
 											</div>
 										</div>
@@ -149,11 +163,11 @@
 												<div class="row">
 													<div class="col-md-6">
 														<div class="padding-inner">
-															<canvas id="timeInMarket" width="400" height="400"></canvas>
+															<img src="img/frontend/fake-chart-003.jpg" class="img-fluid img-center">
 														</div>
 													</div>
 													<div class="col-md-6">
-														<span id="numbers">
+														<span id="numbers2">
 															<div>
 																<span id="daily-ops">
 																	<h5>Ops./dia: 0,054</h5>

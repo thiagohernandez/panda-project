@@ -191,6 +191,12 @@ jQuery(document).ready(function() {
 	if (pathname == "/"){
 		$("#home_header").addClass("active");
 	}
+    if (pathname == "/home/crear-cuenta") {
+        $('body').addClass('page-login bg-color_porcelain bg-shape-logo-blue');
+    }
+    if (pathname == "/home/login") {
+        $('body').addClass('page-login bg-color_porcelain bg-shape-logo-blue');
+    }
 
 
     var today = new Date();
