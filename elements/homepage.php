@@ -191,7 +191,7 @@
 						<p><strong><?= txt('batir') ?></strong><?= txt('batir2') ?></p>
 						<p><strong><?= txt('avisamos') ?></strong> <?= txt('cuando_comprar') ?></p>
 						<p><?= txt('alaapertura') ?></p>
-						<p><?= txt('podras_elegir') ?><strong><?= txt('masde500') ?></strong><?= txt('tbcommodityes') ?></p>
+						<p><?= txt('podras_elegir') ?><strong><?= txt('masde500') ?></strong></p>
 					</div>
 					<!-- End Inner -->
 				</div>

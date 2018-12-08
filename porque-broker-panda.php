@@ -386,8 +386,7 @@
                             <i class="fas fa-dollar-sign fs-26 bg-gradient text-background"></i>
                         </div>
                         <h4 class="xxs-mt"><?= txt('costesminimos') ?></h4>
-                        <p class="fs-13"><?= txt('lastran1') ?></p>
-                        <p class="fs-13"><?= txt('lastran2') ?><strong><?= txt('lastran3') ?></strong><?= txt('lastran4') ?></p>
+                        <p class="fs-13"><?= txt('lastran2') ?> <strong><?= txt('lastran3') ?></strong><?= txt('lastran4') ?></p>
                     </div>
 				</div>
 				<div class="col-md-3">
@@ -398,7 +397,6 @@
                             <i class="fas fa-wallet fs-26 bg-gradient text-background"></i>
                         </div>
                         <h4 class="xxs-mt"><?= txt('maximadiversificacion') ?></h4> 
-                        <p class="fs-13"><?= txt('libertadparaelegir') ?></p>
                         <p class="fs-13"><?= txt('libertadparaelegircartera') ?><strong><?= txt('libertadparaelegircartera1') ?></strong><?= txt('libertadparaelegircartera2') ?></p>
                     </div>
 				</div>
@@ -424,7 +422,7 @@
                             <i class="fas fa-users fs-26 bg-gradient text-background"></i>
                         </div>
                         <h4 class="xxs-mt"><?= txt('gestionactiva') ?></h4>
-                        <p class="fs-13"><?= txt('serselectivo') ?> <strong><?= txt('inteligenciaartificial') ?></strong><?= txt('teayudaraaganardinero') ?> </p>
+                        <p class="fs-13"><?= txt('serselectivo') ?> <strong><?= txt('inteligenciaartificial') ?></strong> <?= txt('teayudaraaganardinero') ?> </p>
                     </div>
 				</div>
 				<div class="col-md-3">

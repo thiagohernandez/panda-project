@@ -9,8 +9,10 @@
 					<h4 class="extrabold no-pm"><?= txt('pro') ?></h4>
 					<h5 class="light no-pm"><?= txt('particular') ?></h5>
 					<!-- Price -->
-					<h3><span class="text-lg2 extrabold">1</span>€</h3>
-					<p class="uppercase"><?= txt('semana_euro') ?></p>
+					<div class="pricing-tables__price">
+						<p class="tachado">29,90</p>
+						<h3><span class="text-lg2 extrabold">9,90</span>€</h3>
+					</div>
 				</div>
 				<!-- List -->
 				<ul class="basic-list list-lg xs-my">
@@ -40,12 +42,14 @@
 			<!-- Box Border -->
 			<div class="border-1 border-gray bs-light-hover slow">
 				<!-- Box Top -->
-				<div class="bg-gradient white xs-py">
+				<div class="bg-gray1 xs-py">
 					<h4 class="extrabold no-pm white"><?= txt('goldcontinent') ?></h4>
 					<h5 class="light no-pm white"><?= txt('brokersfamily') ?></h5>
 					<!-- Price -->
-					<h3 class="white"><span class="text-lg2 extrabold">3</span>€</h3>
-					<p class="uppercase white"><?= txt('semanaeuro') ?></p>
+					<div class="pricing-tables__price">
+						<p class="tachado">289,00</p>
+						<h3><span class="text-lg2 extrabold">99,90</span>€</h3>
+					</div>
 				</div>
 				<!-- List -->
 				<ul class="basic-list list-lg xs-my">
@@ -87,8 +91,10 @@
 					<h4 class="extrabold no-pm"><?= txt('premiumworld') ?></h4>
 					<h5 class="light no-pm"><?= txt('grandesfamily') ?></h5>
 					<!-- Price -->
-					<h3><span class="text-lg2 extrabold">7</span>€</h3>
-					<p class="uppercase"><?= txt('semanaeuro') ?></p>
+					<div class="pricing-tables__price">
+						<p class="tachado">289,00</p>
+						<h3><span class="text-lg2 extrabold">99,90</span>€</h3>
+					</div>
 				</div>
 				<!-- List -->
 				<ul class="basic-list list-lg xs-my">
