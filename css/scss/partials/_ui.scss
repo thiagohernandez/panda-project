@@ -232,3 +232,33 @@ hr.divider {
 		@include font-size(24px);
 	}
 }
+
+//pricing-tables
+.pricing-tables__price {
+	.tachado {
+		@include font-size(26px);
+		color: $red;
+		margin-bottom: -5px;
+    	margin-top: 16px;
+	    position: relative;
+    	transform-style: preserve-3d;
+    	&:before {
+		    position: absolute;
+		    left: 50%;
+		    top: 4px;
+		    height: 3px;
+		    width: 114px;
+	    	background-color: rgba(65,65,65,0.7);
+	    	-webkit-transform: rotate(-15deg) translateX(-50%) translateZ(2px);
+	    	transform: rotate(-15deg) translateX(-50%) translateZ(2px);
+	    	content: '';
+    	}
+	}
+	h3 {
+		color:$green;
+	}
+	.text-lg2 {
+    	font-size: 42px;
+    	color:$green;
+	}
+}
