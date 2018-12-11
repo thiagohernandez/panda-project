@@ -267,6 +267,12 @@ class Spanish {
 		'contrasena' => 'Contraseña',
 		'repcontrasena' => 'Repetir contraseña',
 		'yatengo' => 'Ya tengo una cuenta',
+
+		//PREGUNTAS FRECUENTES FAQ.PHP
+		'faq' => 'Preguntas Frecuentes',
+		'que-es-broker-panda' => 'Que es BROKERPANDA',
+
+
 	);
 
 	public function get($s) {

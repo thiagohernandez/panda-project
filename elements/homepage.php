@@ -325,6 +325,8 @@
 
 	<?php include ("./elements/precios.php"); ?>
 
+	<?php include ("./elements/faq.php"); ?>
+
     <?php include ("./elements/panda_academy.php"); ?>
 
 	<?php include ("./elements/footer.php"); ?>

@@ -36,68 +36,7 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="modal" tabindex="-1" role="dialog" id="pricingTables01">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title"><?= txt('pro') ?> <small><?= txt('particular') ?></small></h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-		      </div>
-		      <div class="modal-body">
-		      		<div class="row">
-		      			<div class="col-md-4">
-							<div class="jumbotron bg-gray1 bs-sm">
-		                        <div>
-		                            <h2 class="bold-title text-center">TOP 10</h2>
-		                            <div class="pricing-tables__price">
-										<p class="tachado">29<small>,90€</small></p>
-										<h3><span class="text-lg2 extrabold">9</span>,90€</h3>
-									</div>
-									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
-									</p>
-		                        </div>
-		                    </div>
-	                    </div>
-	                    <div class="col-md-4">
-							<div class="jumbotron bg-gray1 bs-sm">
-		                        <div>
-		                            <h2 class="bold-title text-center">TOP 10 + 5 compañías</h2>
-		                            <div class="pricing-tables__price">
-										<p class="tachado">19<small>,90€</small></p>
-										<h3><span class="text-lg2 extrabold">39</span>,90€</h3>
-									</div>
-									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
-									</p>
-		                        </div>
-		                    </div>
-	                    </div>
-	                    <div class="col-md-4">
-							<div class="jumbotron bg-gray1 bs-sm">
-		                        <div>
-		                            <h2 class="bold-title text-center">TOP 10 + todo el mercado</h2>
-		                            <div class="pricing-tables__price">
-										<p class="tachado">29<small>,90€</small></p>
-										<h3><span class="text-lg2 extrabold">64</span>,80€</h3>
-									</div>
-									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
-									</p>
-		                        </div>
-		                    </div>
-	                    </div>
-                    </div>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-
-									  
-
+							  
 		<!-- Box -->
 		<div class="scaled">
 			<!-- Box Border -->
@@ -129,17 +68,10 @@
 				</ul>
 				<!-- Button -->
 				<div class="xs-my xs-pl xs-pr">
-					<div class="col text-left">
-						<div class="classic_checkbox radio radioBigInverters">
-							<input type="radio" name="radiobig" id="radioBigOne" value="6 <?= txt('meses') ?>" checked=""> <label for="radioBigOne"><small>6 <?= txt('meses') ?>/78€</small></label>
-						</div>
-						<div class="classic_checkbox radio radioBigInverters">
-							<input type="radio" name="radiobig" id="radioBigTwo" value="1 <?= txt('ano') ?>"> <label for="radioBigTwo"><small>1 <?= txt('ano') ?>/156€</small></label>
-						</div>
-					</div>
 					<!-- Button -->
-					<a href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=8edd287943629&mfid=1534251710877_8edd287943629#/checkout/openButton" class="btn btn-block btn-green slow big6months"><?= txt('comprar') ?></a>
-					<a href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=1628920d2ca8f&mfid=1534251843625_1628920d2ca8f#/checkout/openButton" class="btn btn-block btn-green slow big1year" style="display:none;"><?= txt('comprar') ?></a>
+					<a href="#pricingTables02" class="btn btn-block btn-primary slow" data-toggle="modal" data-target="#pricingTables02">
+						<?= txt('comprar') ?>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -175,9 +107,209 @@
 				<!-- Button -->
 				<div class="xs-my xs-pl xs-pr">
 					<!-- Button -->
-					<a href="#club6meses" class="btn btn-block btn-primary club6months"><?= txt('comprar') ?></a>
+					<a href="#pricingTables03" class="btn btn-block btn-primary slow" data-toggle="modal" data-target="#pricingTables03">
+						<?= txt('comprar') ?>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+	<!-- Modal 1 -->
+    <div id="pricingTables01" class="modal fade" tabindex="0" role="dialog">
+        <!-- Container -->
+        <div class="modal-dialog modal-lg bg-white radius o-hidden" role="document">
+            <!-- Modal Content -->
+            <div class="modal-content">
+                <!-- Close Button for modal -->
+                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+		        </button>
+
+                <div class="xs-pl xs-pr sm-py">
+                    <div class="row">
+		      			<div class="col-md-4">
+							<div class="jumbotron bg-gray1 bs-sm">
+		                        <div class="text-center">
+		                            <h2 class="bold-title text-center">TOP 10 <br><small>&nbsp;</small></h2>
+		                            <div class="pricing-tables__price">
+										<p class="tachado">29<small>,90€</small></p>
+										<h3><span class="text-lg2 extrabold">9</span>,90€</h3>
+									</div>
+									<p class="text-center">
+										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+									</p>
+		                        </div>
+		                    </div>
+	                    </div>
+	                    <div class="col-md-4">
+							<div class="jumbotron bg-gray1 bs-sm">
+		                        <div class="text-center">
+		                            <h2 class="bold-title text-center">TOP 10 <br><small>+ 5 compañías</small></h2>
+		                            <div class="pricing-tables__price">
+										<p class="tachado">19<small>,90€</small></p>
+										<h3><span class="text-lg2 extrabold">39</span>,90€</h3>
+									</div>
+									<p class="text-center">
+										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+									</p>
+		                        </div>
+		                    </div>
+	                    </div>
+	                    <div class="col-md-4">
+							<div class="jumbotron bg-gray1 bs-sm">
+		                        <div class="text-center">
+		                            <h2 class="bold-title text-center">TOP 10 <br><small>+ todo el mercado</small></h2>
+		                            <div class="pricing-tables__price">
+										<p class="tachado">29<small>,90€</small></p>
+										<h3><span class="text-lg2 extrabold">64</span>,80€</h3>
+									</div>
+									<p class="text-center">
+										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+									</p>
+		                        </div>
+		                    </div>
+	                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Content -->
+        </div>
+        <!-- End Container -->
+    </div>
+    <!-- End Modal 2 -->
+
+    <!-- Modal 3 -->
+    <div id="pricingTables02" class="modal fade" tabindex="0" role="dialog">
+        <!-- Container -->
+        <div class="modal-dialog modal-lg bg-white radius o-hidden" role="document">
+            <!-- Modal Content -->
+            <div class="modal-content">
+                <!-- Close Button for modal -->
+                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+		        </button>
+		        
+                <div class="xs-pl xs-pr sm-py">
+                    <div class="row">
+		      			<div class="col-md-4">
+							<div class="jumbotron bg-gray1 bs-sm">
+		                        <div class="text-center">
+		                            <h2 class="bold-title text-center">TOP 20 <br><small>&nbsp;</small></h2>
+		                            <div class="pricing-tables__price">
+										<p class="tachado">289<small>,90€</small></p>
+										<h3><span class="text-lg2 extrabold">99</span>,90€</h3>
+									</div>
+									<p class="text-center">
+										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+									</p>
+		                        </div>
+		                    </div>
+	                    </div>
+	                    <div class="col-md-4">
+							<div class="jumbotron bg-gray1 bs-sm">
+		                        <div class="text-center">
+		                            <h2 class="bold-title text-center">TOP 20 <br><small>+ 30 compañías</small></h2>
+		                            <div class="pricing-tables__price">
+										<p class="tachado">398<small>,90€</small></p>
+										<h3><span class="text-lg2 extrabold">189</span>,90€</h3>
+									</div>
+									<p class="text-center">
+										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+									</p>
+		                        </div>
+		                    </div>
+	                    </div>
+	                    <div class="col-md-4">
+							<div class="jumbotron bg-gray1 bs-sm">
+		                        <div class="text-center">
+		                            <h2 class="bold-title text-center">TOP 20 <br><small>+ todo el continente</small></h2>
+		                            <div class="pricing-tables__price">
+										<p class="tachado">1.380<small>,00€</small></p>
+										<h3><span class="text-lg2 extrabold">599</span>,90€</h3>
+									</div>
+									<p class="text-center">
+										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+									</p>
+		                        </div>
+		                    </div>
+	                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Content -->
+        </div>
+        <!-- End Container -->
+    </div>
+    <!-- End Modal 2 -->
+
+    <!-- Modal 1 -->
+    <div id="pricingTables03" class="modal fade" tabindex="0" role="dialog">
+        <!-- Container -->
+        <div class="modal-dialog modal-lg bg-white radius o-hidden" role="document">
+            <!-- Modal Content -->
+            <div class="modal-content">
+                <!-- Close Button for modal -->
+                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+		        </button>
+
+                <div class="xs-pl xs-pr sm-py">
+                    <div class="row">
+		      			<div class="col-md-4">
+							<div class="jumbotron bg-gray1 bs-sm">
+		                        <div class="text-center">
+		                            <h2 class="bold-title text-center">TOP 30 <br><small>&nbsp;</small></h2>
+		                            <div class="pricing-tables__price">
+										<p class="tachado">1.489<small>,00€</small></p>
+										<h3><span class="text-lg2 extrabold">789</span>,90€</h3>
+									</div>
+									<p class="text-center">
+										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+									</p>
+		                        </div>
+		                    </div>
+	                    </div>
+	                    <div class="col-md-4">
+							<div class="jumbotron bg-gray1 bs-sm">
+		                        <div class="text-center">
+		                            <h2 class="bold-title text-center">TOP 30 <br><small>+ 30 compañías</small></h2>
+		                            <div class="pricing-tables__price">
+										<p class="tachado">2.100<small>,00€</small></p>
+										<h3><span class="text-lg2 extrabold">999</span>,00€</h3>
+									</div>
+									<p class="text-center">
+										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+									</p>
+		                        </div>
+		                    </div>
+	                    </div>
+	                    <div class="col-md-4">
+							<div class="jumbotron bg-gray1 bs-sm">
+		                        <div class="text-center">
+		                            <h2 class="bold-title text-center">TOP 30 <br><small>+ todo el mundo</small></h2>
+		                            <div class="pricing-tables__price">
+										<p class="tachado">4.800<small>,00€</small></p>
+										<h3><span class="text-lg2 extrabold">1.899</span>,00€</h3>
+									</div>
+									<p class="text-center">
+										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+									</p>
+		                        </div>
+		                    </div>
+	                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Content -->
+        </div>
+        <!-- End Container -->
+    </div>
+    <!-- End Modal 2 -->
+
+    
+

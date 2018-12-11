@@ -61,6 +61,8 @@
 	</section>
 
 	<?php include ("./elements/precios.php"); ?>
+
+	<?php include ("./elements/faq.php"); ?>
 	
     <?php include ("./elements/porque_broker.php"); ?>
 	
