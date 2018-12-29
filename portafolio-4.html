@@ -3,11 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Dashboard - BrokerPanda - Investing Club</title>
+        <title>Portafolio - BrokerPanda - Investing Club</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
-
-        <link rel="icon" type="image/png" href="favicon.png" />
 
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -16,9 +14,6 @@
 
         <link rel="stylesheet" href="plugins/slick/slick.css">
         <link rel="stylesheet" href="plugins/slick/slick-theme.css">
-
-        <link rel="stylesheet" href="plugins/introjs/introjs.min.css">
-
         <link rel="stylesheet" href="css/theme.min.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -36,11 +31,11 @@
 		<div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
 			<div class="form-inline">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="dashboard-3.html">Dashboard <span class="sr-only">(current)</span></a>
-					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="portafolio-3.html">Área personal</a>
+						<a class="nav-link" href="dashboard-3.html">Dashboard</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="portafolio-3.html">Área personal <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="panda-academy.html">PandaAcademy</a>
@@ -57,179 +52,19 @@
 		</div>
     </nav>
 
-    <section class="section-alerts">
-    	<div class="wrapper">
-    		<div class="container-fluid">
-	    		<div class="row">
-	    			<div class="col-md-12">
-	    				<h1 class="title-page">Dashboard</h1>
-    				</div>
-				</div>
-			</div>
-    	</div>
-    	<div class="wrapper">
-    		<div class="container-fluid">
-	    		<div class="row">
-	    			<style>
-		    			.img-center {
-		    				margin: auto;
-		    			}
-		    			#daily-ops {
-		    				color: #5837c1;
-		    			}
-		    			.tgrp .gain {
-		    				color: #1bb273!important;
-		    			}
-		    			.tgrp .loss {
-		    				color: #e62254!important;
-		    			}
-		    			.card-header h5 {
-						    margin-top: 1rem;
-						    padding-bottom: 1rem;
-						    border-bottom: 1px solid rgba(50,50,90,0.1);
-					    }
-	    			</style>
-	    			<div class="col-md-12">
-	    				<div class="card card-white card-alerts">
-
-	    					<div class="row">
-
-	    						<div class="col-md-4">
-									<div class="card-header">
-										<h5>Rendimiento pasado</h5>
-									</div>
-									<div class="card-body">
-										<div class="row">
-	    									<div class="col-4">
-												<small>Desde 2011</small>
-												<div class="rendimiento-esperado">125<span>%</span></div>
-											</div>
-											<div class="col-4">
-												<small>Ultimos 5 años</small>
-												<div class="rendimiento-esperado">75<span>%</span></div>
-											</div>
-											<div class="col-4">
-												<small>Ultimo año</small>
-												<div class="rendimiento-esperado">12<span>%</span></div>
-											</div>
-										</div>
-										<p><strong>BrokerPanda</strong> está monitorando <strong>12</strong> empresas en su portafólio.</p>
-										<a href="mi-cuenta.html?tab=subscription" class="btn btn-primary">Cambiar suscripción</a><em class="btn btn-outline btn-disabled">PLAN ACTUAL <strong>FREE</strong></em>
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="card-header">
-										<h5>Average profit/op.: 3,82%</h5>
-									</div>
-									<div class="card-body">
-										<div class="padding-inner">
-											<img src="img/frontend/fake-chart-bars.jpg" class="img-fluid img-center">
-										</div>
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="card-header">
-										<h5>Configurar alertas</h5>
-									</div>
-									<div class="card-body">
-										<p>No pierdas más niunguna oportunidad. Su cuenta no tiene configurada un método de recibir los alertas diários.</p>
-										<p>Configura ahora mismo un dispositivo para recibir oportunidades.</p>
-										<a href="mi-cuenta.html?tab=alerts" class="btn btn-green">Configurar alertas</a>
-									</div>
-			    				</div>
-
-
-
-							</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="row">
-										<div class="col-xl-6 col-md-12">
-											<div class="card-header">
-												<h5>% positive positions</h5>
-											</div>
-											<div class="card-body">
-												<div class="padding-inner">
-													<img src="img/frontend/fake-chart-001.jpg" class="img-fluid img-center">
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-6 col-md-12">
-											<div class="card-header">
-												<h5>Profits/losses ratio</h5>
-											</div>
-											<div class="card-body">
-												<div class="padding-inner">
-													<img src="img/frontend/fake-chart-002.jpg" class="img-fluid img-center">
-												</div>
-											</div>
-										</div>
-									</div>
-			    				</div>
-			    				<div class="col-md-6">
-									
-										<div class="card-header">
-											<h5>Time in market</h5>
-										</div>
-										<div class="card-body">
-											<div class="padding-inner">
-												<div class="row">
-													<div class="col-md-6">
-														<div class="padding-inner">
-															<img src="img/frontend/fake-chart-003.jpg" class="img-fluid img-center">
-														</div>
-													</div>
-													<div class="col-md-6">
-														<span id="numbers2">
-															<div>
-																<span id="daily-ops">
-																	<h5>Ops./dia: 0,054</h5>
-																	<h5>(una cada 18,5 días)</h5>
-																</span>
-															</div>
-															<div class="tgrp">
-																<h5 class="gain">Max runup: 29,59%</h5>
-																<h5 class="gain">Max consecutive profits: 2</h5>
-															</div>
-															<div class="tgrp">
-																<h5 class="loss">Max drawdown: 13,29%</h5>
-																<h5 class="loss">Max consecutive losses: 7</h5>
-															</div>
-														</span>
-													</div>
-												</div>
-											</div>
-										</div>
-
-								</div>
-							</div>
-
-						</div>
-    				</div>
-    				
-    				
-
-					
-
-				</div>
-
-				<div class="row">
-
-					
-					
-
-				</div>
-			</div>
-    </section>
-
     <section class="section-app padding-regular">
     	<div class="wrapper">
     		<div class="container-fluid">
+    			<div class="row">
+	    			<div class="col-md-12">
+	    				<h1 class="title-page">Área personal</h1>
+    				</div>
+				</div>
 
     			<div class="row">
-					<div class="col-md-12" id="stepTwo" data-step="2" data-intro="Cada portafolio esta relacionado con un mercado, una vez que elijas un mercada estará todo listo para empezar a crear tu lista de alertas.">
+					<div class="col-md-12" id="markets">
 						<h4>Mercados</h4>
-    					<div class="markets-slider">
+						<div class="markets-slider">
 							<div>
 								<a href="#" class="btn btn-primary btn-large">IBEX 35</a>
 							</div>
@@ -297,129 +132,480 @@
     				</div>
     			</div>
 
-    			<div class="row">
-    				<div class="col-md-12">
-    					<h4>¡QUE TIENE BROKERPANDA PARA HOY!</h4>
-					</div>
-				</div>
 	    		<div class="row">
 	    			
-    				<div class="col-md-12 col-lg-12 col-xl-4">
-	    				<div class="card card-white card-portafolio" id="stepThree" data-step="3" data-intro="De acuerdo con nuestas analisis y cruzamento de datos esta es la mejor seleción del mercado que has elegido. Con nuestro TopTen garantizamos los mejores rendimentos y con eso potencializamos tus ganancias.">
+    				<div class="col-md-6">
+	    				<div class="card card-white card-portafolio">
 							<div class="card-body">
+
 								<div class="card-header">
-									Sus alertas Entrar <small class="printDateJS">Fecha</small>
+									Top10 IBEX35
+									<!-- 
+									<div class="btn-group float-right">
+										<button type="button" class="btn btn-gray dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Mercado: <span class="selected-market">IBEX35</span>
+										</button>
+										<div class="dropdown-menu dropdown-menu-right">
+											<a class="dropdown-item" href="#">IBEX35</a>
+											<a class="dropdown-item disabled" href="#">NASDAQ</a>
+											<a class="dropdown-item disabled" href="#">Dow Jones</a>
+											<a class="dropdown-item disabled" href="#">EURONEXT</a>
+											<a class="dropdown-item disabled" href="#">Shanghai Stock Exchange</a>
+											<a class="dropdown-item disabled" href="#">JPX</a>
+											<a class="dropdown-item disabled" href="#">FTSE 100 Component</a>
+											<a class="dropdown-item disabled" href="#">SEHK</a>
+										</div>
+									</div>
+									-->
 								</div>
+
+
 								<div class="table-responsive">
 									<table class="table table-hover table-portafolio">
 									  <tbody>
 									    <tr>
+									      <th width="32" scope="row">01</th>
 									      <td>INDITEX</td>
 									      <td>IBEX</td>
-									      <td><span class="badge badge-success" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">Comprar</span></td>
+									      <td><span class="badge badge-danger" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">Vender</span></td>
 									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
-									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i><a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
 									    </tr>
 									    <tr>
-									      <td>SANTANDER</td>
+									      <th scope="row">02</th>
+									      <td>Banco Santander</td>
 									      <td>IBEX</td>
 									      <td><span class="badge badge-success" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">Comprar</span></td>
 									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
-									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i><a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
 									    </tr>
 									    <tr>
+									      <th scope="row">03</th>
 									      <td>AENA</td>
 									      <td>IBEX</td>
 									      <td><span class="badge badge-success" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">Comprar</span></td>
 									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
-									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i><a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
 									    </tr>
 									    <tr>
+									      <th scope="row">04</th>
 									      <td>INDITEX</td>
 									      <td>IBEX</td>
 									      <td><span class="badge badge-success" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">Comprar</span></td>
 									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
-									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i><a></td>
-									    </tr>
-									  </tbody>
-									</table>
-
-								</div>
-	    					</div>
-    					</div>	
-    				</div><!-- ./col-md-4 -->
-
-    				<div class="col-md-12 col-lg-12 col-xl-4">
-	    				<div class="card card-white card-portafolio" id="stepThree" data-step="3" data-intro="De acuerdo con nuestas analisis y cruzamento de datos esta es la mejor seleción del mercado que has elegido. Con nuestro TopTen garantizamos los mejores rendimentos y con eso potencializamos tus ganancias.">
-							<div class="card-body">
-								<div class="card-header">
-									Sus alertas Mantener/Esperar <small class="printDateJS">Fecha</small>
-								</div>
-								<div class="table-responsive">
-									<table class="table table-hover table-portafolio">
-									  <tbody>
-									     <tr>
-											<td>MAPFRE</td>
-											<td>IBEX</td>
-											<td><span class="badge badge-info" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">No actuar</span></td>
-											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
-									      	<td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i><a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
 									    </tr>
 									    <tr>
-										      <td>Gas Natural Fenosa</td>
-										      <td>IBEX</td>
-										      <td><span class="badge badge-info" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">No actuar</span></td>
-										      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
-										      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i><a></td>
-									    </tr>
-									  </tbody>
-									</table>
-
-								</div>
-	    					</div>
-    					</div>	
-    				</div><!-- ./col-md-4 -->
-
-    				<div class="col-md-12 col-lg-12 col-xl-4">
-	    				<div class="card card-white card-portafolio" id="stepThree" data-step="3" data-intro="De acuerdo con nuestas analisis y cruzamento de datos esta es la mejor seleción del mercado que has elegido. Con nuestro TopTen garantizamos los mejores rendimentos y con eso potencializamos tus ganancias.">
-							<div class="card-body">
-								<div class="card-header">
-									Sus alertas Salir <small class="printDateJS">Fecha</small>
-								</div>
-								<div class="table-responsive">
-									<table class="table table-hover table-portafolio">
-									  <tbody>
-									    <tr>
-									      <td>ArcelorMittal</td>
-									      <td>IBEX</td>
-									      <td><span class="badge badge-danger"  data-toggle="tooltip" data-placement="top" title="Alerta de hoy">Vender</span></td>
-									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
-									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i><a></td>
-									    </tr>
-									    <tr>
+									      <th scope="row">05</th>
 									      <td>BBVA</td>
 									      <td>IBEX</td>
-									      <td><span class="badge badge-danger" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">Vender</span></td>
+									      <td><span class="badge badge-info" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">No actuar</span></td>
 									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
-									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i><a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
 									    </tr>
 									    <tr>
-									      <td>Meliá Hotels Internacional</td>
+									      <th scope="row">06</th>
+									      <td>Gas Natural Fenosa</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-info" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">No actuar</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+									      <th scope="row">07</th>
+									      <td>ArcelorMittal</td>
 									      <td>IBEX</td>
 									      <td><span class="badge badge-danger" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">Vender</span></td>
 									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
-									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i><a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+									      <th scope="row">08</th>
+									      <td>MAPFRE</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-info" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">No actuar</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+									      <th scope="row">09</th>
+									      <td>Endesa</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-danger" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">Vender</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+									      <th scope="row">10</th>
+									      <td>Meliá Hotels Internacional</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-success" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">Comprar</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    
+
+									  </tbody>
+									</table>
+									
+							</div>
+	    				</div>
+
+    				</div>	
+    				<div class="card card-white card-portafolio">
+						<div class="card-body">
+							<div class="card-header">
+								Otras compañias	
+							</div>
+							<div class="table-responsive">
+								<table class="table table-hover table-portafolio">
+									<tbody>
+									    <tr class="other">
+								      <th scope="row">-</th>
+								      <td>ING Groep</td>
+								      <td>AEX</td>
+								      <td><span class="badge badge-success" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">Comprar</span></td>
+								      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+								      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+								    </tr>
+								    <tr class="other">
+								      <th scope="row">-</th>
+								      <td>Heineken</td>
+								      <td>AEX</td>
+								      <td><span class="badge badge-info" data-toggle="tooltip" data-placement="top" title="Alerta de hoy">No actuar</span></td>
+								      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+								      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+								    </tr>
+								    </tbody>
+								</table>
+							</div>
+							<div class="bg-gray1 xs-py">
+								<div class="text-center"><em class="btn btn-outline btn-disabled">PLAN ACTUAL <strong>PRO</strong></em></div>
+								<!-- Price -->
+								<div class="row">
+									<div class="col-md-6 t-center">
+										<div class="pricing-tables__price">
+											<p class="tachado text-center">29<small>,90€</small></p>
+											<h3 class="text-center"><span class="text-lg2 extrabold">9</span>,90€</h3>
+										</div>
+									</div>
+									<div class="col-md-6 align-self-center">
+										<a href="mi-cuenta.html?tab=subscription" class="btn btn-primary">Cambiar suscripción</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+    			</div><!-- ./col-md-6 -->
+    			<div class="col-md-6">
+	    				<div class="card card-white card-portafolio">
+							<div class="card-body">
+								<div class="card-header">
+									Todas las compañias IBEX35
+								</div>
+								<div class="table-responsive">
+									<table class="table table-hover table-portafolio">
+									  <tbody>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Abertis</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Acciona</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr class="signal">
+									      <th scope="row">07</th>
+									      <td>ArcelorMittal</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-danger">Vender</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Acerinox</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>ACS</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr class="signal">
+									      <th scope="row">03</th>
+									      <td>AENA</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-success">Comprar</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Amadeus IT Holdin</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Banco Sabadell</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr class="signal">
+									      <th scope="row">02</th>
+									      <td>Banco Santander</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-success">Comprar</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Bankia</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Bankinter</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr class="signal">
+									      <th scope="row">05</th>
+									      <td>BBVA</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-info">No actuar</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Caixabank</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Cellnex</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Dia</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Enagás</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr class="signal">
+									      <th scope="row">09</th>
+									      <td>Endesa</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-danger">Vender</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Ferrovial</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr class="signal">
+									      <th scope="row">06</th>
+									      <td>Gas Natural Fenosa</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-info">No actuar</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Siemens Gamesa</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Grifols</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Iberdrola</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr class="signal">
+									      <th width="32" scope="row">01</th>
+									      <td>INDITEX</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-danger">Vender</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Indra Sistemas</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>International Airlines Group</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Inmobiliaria Colonial</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr class="signal">
+									      <th scope="row">08</th>
+									      <td>MAPFRE</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-info">No actuar</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Mediaset España Comunicación</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr class="signal">
+									      <th scope="row">10</th>
+									      <td>Meliá Hotels Internacional</td>
+									      <td>IBEX</td>
+									      <td><span class="badge badge-success">Comprar</span></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+									      <td width="32"><a href="javascript:void(0);" class="btn btn-delete-item" data-toggle="tooltip" data-placement="top" title="Borrar empresa"><i class="far fa-trash-alt"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Merlin Properties</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Naturgy</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Red Eléctrica de España</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Repsol</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Técnicas Reunidas</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Telefónica</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
+									    </tr>
+									    <tr>
+											<th scope="row">-</th>
+											<td>Viscofán</td>
+											<td>IBEX</td>
+											<td></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-charts-item" data-toggle="tooltip" data-placement="top" title="Ver rendimiento"><i class="fas fa-chart-line"></i></a></td>
+											<td width="32"><a href="javascript:void(0);" class="btn btn-add-item" data-toggle="tooltip" data-placement="top" title="Añadir empresa"><i class="far fa-plus-square"></i></a></td>
 									    </tr>
 									  </tbody>
 									</table>
-
+									
 								</div>
-	    					</div>
-    					</div>	
-    				</div><!-- ./col-md-4 -->
+
+	    				</div>
+    				</div>	
+    			</div><!-- ./col-md-6 -->
 			</div>
 		</div>
 	</section>
+
 
 
 	<!-- Modal graficas empresas -->
@@ -902,11 +1088,12 @@
 
 
 
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/vendor/jquery-3.3.1.min.js"></script>
-    <!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
 
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
 
@@ -915,159 +1102,14 @@
     <script src="js/vendor/webfontloader.min.js"></script>
 
     <script src="plugins/slick/slick.min.js"></script>
-
-    <script src="plugins/introjs/intro.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+    <script src="js/vendor/jquery.easing.min-v.1.3.js"></script>
     
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 
+
     <script src="js/frontend.js"></script>
-
-
-    <!-- charts.js -->
-    <script>
-    	Chart.pluginService.register({
-			beforeDraw: function (chart) {
-				if (chart.config.options.elements.center) {
-	        //Get ctx from string
-	        var ctx = chart.chart.ctx;
-	        
-					//Get options from the center object in options
-	        var centerConfig = chart.config.options.elements.center;
-	      	var fontStyle = centerConfig.fontStyle || 'Arial';
-					var txt = centerConfig.text;
-	        var color = centerConfig.color || '#000';
-	        var sidePadding = centerConfig.sidePadding || 20;
-	        var sidePaddingCalculated = (sidePadding/100) * (chart.innerRadius * 2)
-	        //Start with a base font of 30px
-	        ctx.font = "30px " + fontStyle;
-	        
-					//Get the width of the string and also the width of the element minus 10 to give it 5px side padding
-	        var stringWidth = ctx.measureText(txt).width;
-	        var elementWidth = (chart.innerRadius * 2) - sidePaddingCalculated;
-
-	        // Find out how much the font can grow in width.
-	        var widthRatio = elementWidth / stringWidth;
-	        var newFontSize = Math.floor(30 * widthRatio);
-	        var elementHeight = (chart.innerRadius * 2);
-
-	        // Pick a new font size so it will not be larger than the height of label.
-	        var fontSizeToUse = Math.min(newFontSize, elementHeight);
-
-					//Set font settings to draw it correctly.
-	        ctx.textAlign = 'center';
-	        ctx.textBaseline = 'middle';
-	        var centerX = ((chart.chartArea.left + chart.chartArea.right) / 2);
-	        var centerY = ((chart.chartArea.top + chart.chartArea.bottom) / 2);
-	        ctx.font = fontSizeToUse+"px " + fontStyle;
-	        ctx.fillStyle = color;
-	        
-	        //Draw text in center
-	        ctx.fillText(txt, centerX, centerY);
-				}
-			}
-		});
-
-    	var data = {
-		    datasets: [{
-		        data: [20, 33],
-		        backgroundColor: ['#00b371', '#dedede']
-		    }],
-
-		    // These labels appear in the legend and in the tooltips when hovering different arcs
-		    labels: [
-		        'Profits',
-		        'Losses'
-		    ]
-		};
-		var options = {
-			cutoutPercentage: 65,
-			elements: {
-				center: {
-				text: '37%',
-	    	      color: '#00b371', // Default is #000000
-		          fontStyle: 'Poppins', // Default is Arial
-		          sidePadding: 30 // Defualt is 20 (as a percentage)
-				}
-			}
-		};
-
-    	var ctx = $("#myChart");
-
-    	var myDoughnutChart = new Chart(ctx, {
-		    type: 'doughnut',
-		    data: data, 
-		    options: options
-		});
-
-		var data2 = {
-		    datasets: [{
-		        data: [257.4, 55],
-		        backgroundColor: ['#00b371', '#dedede']
-		    }],
-
-		    // These labels appear in the legend and in the tooltips when hovering different arcs
-		    labels: [
-		        'Total profit',
-		        'Total loss'
-		    ]
-		};
-		var options2 = {
-			cutoutPercentage: 65,
-			elements: {
-				center: {
-				text: '82%',
-	    	      color: '#00b371', // Default is #000000
-		          fontStyle: 'Poppins', // Default is Arial
-		          sidePadding: 30 // Defualt is 20 (as a percentage)
-				}
-			}
-		};
-
-    	var ctx2 = $("#myChart2");
-
-    	var myDoughnutChart2 = new Chart(ctx2, {
-		    type: 'doughnut',
-		    data: data2, 
-		    options: options2
-		});
-
-		//timeInMarket
-		var dataTimeInMarket = {
-		    datasets: [{
-		        data: [47, 53],
-		        backgroundColor: ['#00b371', '#dedede']
-		    }],
-
-		    // These labels appear in the legend and in the tooltips when hovering different arcs
-		    labels: [
-		        'Total profit',
-		        'Total loss'
-		    ]
-		};
-		var optionsTimeInMarket = {
-			cutoutPercentage: 65,
-			elements: {
-				center: {
-				text: '47%',
-	    	      color: '#00b371', // Default is #000000
-		          fontStyle: 'Poppins', // Default is Arial
-		          sidePadding: 30 // Defualt is 20 (as a percentage)
-				}
-			}
-		};
-
-    	var ctx3 = $("#timeInMarket");
-
-    	var myDoughnutChart3 = new Chart(ctx3, {
-		    type: 'doughnut',
-		    data: dataTimeInMarket, 
-		    options: optionsTimeInMarket
-		});
-
-	</script>
 
     </body>
 </html>

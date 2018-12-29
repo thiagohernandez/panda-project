@@ -16,14 +16,15 @@
 				</div>
 				<!-- List -->
 				<ul class="basic-list list-lg xs-my">
-					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <strong><?= txt('1mercado') ?></strong><?= txt('atueleccion') ?></li>        
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('top10') ?></li>
+					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <strong><?= txt('1mercado') ?></strong><?= txt('atueleccion') ?></li>        
+					
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('garantiadedevolucion') ?></li> 
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('alertasapertura') ?></li>
-					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('stopsautomaticos') ?></li>
+					
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('estadisticasdesde') ?></li>
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('emaildiario') ?> </li>
-					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('pushdesenales') ?>  </li>
+					
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('posibilidaddeelegir') ?> <?= txt('conlaposibilidad') ?></li>
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('rentabilidadestimada') ?> </li>
 				</ul>
@@ -54,14 +55,15 @@
 				<!-- List -->
 				<ul class="basic-list list-lg xs-my">
 
+					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('top20') ?> <?= txt('decadamercado') ?></li>
 				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <strong><?= txt('1continente') ?></strong> <?= txt('atueleccion') ?></li>
-				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('top20') ?> <?= txt('decadamercado') ?> <?= txt('plus30') ?></li>
+				  
 				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('garantiadedevolucion') ?> </li>
 				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('15minantes') ?></li>
-				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('stopsautomaticos') ?></li>
+				  
 				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('estadisticasdesde') ?></li>
 				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('emaildiario') ?> </li>
-				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('pushdesenales') ?>  </li>
+				  
 				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('posibilidaddeelegir') ?> </li>
 				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('rentabilidadestimada') ?> </li>
 
@@ -92,14 +94,15 @@
 				<!-- List -->
 				<ul class="basic-list list-lg xs-my">
 
+					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('top30') ?> <?= txt('decadamercado') ?> <?= txt('delmundo') ?></li>
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <strong> <?= txt('todoslosmercados') ?></strong> </li>
-					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('top30') ?> <?= txt('decadamercado') ?> <?= txt('delmundo') ?> <?= txt('plus30') ?></li>
+					
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('garantiadedevolucion') ?> </li>
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('30minantes') ?></li>
-					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('stopsautomaticos') ?></li>
+					
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('estadisticasdesde') ?></li>
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('emaildiario') ?> </li>
-					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('pushdesenales') ?>  </li>
+					
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('posibilidaddeelegir') ?> </li>
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('rentabilidadestimada') ?> </li>
 
