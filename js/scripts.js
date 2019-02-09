@@ -406,6 +406,8 @@ $(window).on('load', function() {
         }
 
     //Dropdown Effect - get value to button
+    //Dropdown Effect - BUG
+    /*
         $('button.dropdown-toggle + .dropdown-menu').each(function(){
             var target = '#' + $(this).attr('aria-labelledby'), self = $(this);
             $(self).find('li').on('click', function(){
@@ -414,6 +416,8 @@ $(window).on('load', function() {
                 $(target).text(detail).append(cache);
             });
         });
+    //Dropdown Effect - BUG
+    */
     // Quantity up-down clicks
         $('.quantity').each(function(){
             var minus = $(this).find('.minus'),
@@ -523,6 +527,8 @@ $(window).on('load', function() {
     //Sticky Navigation Scripts
         $("#navigation.sticky").sticky({topSpacing:0});
     //Make Dropdown
+    //Make Dropdown BUG
+    /*
         $('#navigation .dropdown-toggle').each(function() {
             $(this).on('mouseenter', function(){
                 var $this = $(this), $item = $($this).find('>.dropdown-menu');
@@ -562,6 +568,10 @@ $(window).on('load', function() {
                 if (itemPos < 0) {$($item).css({'top': + (itemPos) - 20 + 'px'});}
             });
         });
+        //Make Dropdown BUG
+        */
+
+
         //Dropdown to center
         $('.to-center').each(function() { var menuW = $(this).outerWidth(); if ($(window).width() > 1200) { $(this).css({'left': - menuW / 2 + 40 + 'px'});} });
         //Find item notes and add item-noted class to "a" tags.
@@ -677,11 +687,15 @@ $(window).on('load', function() {
             setTimeout( function(){$('#mobile-navigation-closer').fadeOut();},300);
         });
         //Make Dropdown for mobile
+        //Make Dropdown for mobile - BUG
+        /*
         $('#mobile-navigation li.dropdown-toggle > a').append('<i></i>');
         $("#mobile-navigation .dropdown-toggle>a").not('.cart-item').on( "click touch", function() {
             $(this).toggleClass('showing').closest('li').find('> ul.dropdown-menu').slideToggle({duration: 300, easing: "easeInOutQuart"});
             return false;
         });
+        //Make Dropdown for mobile - BUG
+        */
 
 
     //Pagetop collaboration with navigation
@@ -1185,6 +1199,7 @@ $(window).on('load', function() {
         }
 
     //Modal edition for slider
+    /* MODAL BUG
         $('.modal').each(function(){
             var $this = $(this),
                 $slider = $(this).find('.slick-slider');
@@ -1200,6 +1215,7 @@ $(window).on('load', function() {
                 setTimeout( function(){  $($slider).removeClass('modal-active');}, 400);
             });
         });
+    */
 
     //*********************************************
     // Refresh parallax effect, lightbox, icon navigation when click portfolio filters

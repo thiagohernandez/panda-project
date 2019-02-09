@@ -99,9 +99,9 @@
                             	<h4>5.1 - Tengo experiencia</h4>
                                 <p>Continúa con tu banco/bróker y coloca las operaciones lo más pronto posible en cuanto recibas el e-mail en la apertura de los mercados y acuérdate de los stops</p>
                                 <h4>5.2 - No tengo experiencia</h4>
-                                <p><strong>A/</strong> lo primero es abrirte una cuenta de valores en un banco/bróker autorizado (podemos recomendarte DEGIRO.com, que es gratuita, por sus bajas comisiones y buen servicio en la operativa) –video de degiro- <a href="https://youtu.be/TdC2wB4DiZc">https://youtu.be/TdC2wB4DiZc</a></p>
-								<p><strong>B/</strong> tienes que aprender a comprar y salir del mercado con las diferentes órdenes al mercado, sobre todo los stops. todo es muy sencillo. –video de pablo-</p>
-								<p><strong>C/</strong> cuando recibas la información de BROKERPANDA coloca las operaciones con los stops correspondientes.-video de stops-</p>
+                                <p><strong>A/</strong> lo primero es abrirte una cuenta de valores en un banco/bróker autorizado.</p>
+								<p><strong>B/</strong> tienes que aprender a comprar y salir del mercado con las diferentes órdenes al mercado, sobre todo los stops. todo es muy sencillo.</p>
+								<p><strong>C/</strong> cuando recibas la información de BROKERPANDA coloca las operaciones con los stops correspondientes.</p>
                             </div>
                         </div>
                         <!-- End Content -->
@@ -134,7 +134,7 @@
                         <div id="seven-8" class="collapse" aria-labelledby="seven-header-8" data-parent="#seven">
                             <!-- Details -->
                             <div class="card-body">
-                            	<p>Son órdenes que se añaden a las ordenes principales  (dentro de tu operador, por ejemplo DEGIRO) para salir del mercado si éste se da la vuelta en nuestra contra violentamente, por cualquier hecho inesperado. Esto mantiene nuestras posiciones protegidas en todo momento y se anulan cuando cerramos cualquier posición. –ver video-</p>
+                            	<p>Son órdenes que se añaden a las ordenes principales para salir del mercado si éste se da la vuelta en nuestra contra violentamente, por cualquier hecho inesperado. Esto mantiene nuestras posiciones protegidas en todo momento y se anulan cuando cerramos cualquier posición.</p>
                             </div>
                         </div>
                         <!-- End Content -->
@@ -150,7 +150,7 @@
                         <div id="seven-9" class="collapse" aria-labelledby="seven-header-9" data-parent="#seven">
                             <!-- Details -->
                             <div class="card-body">
-                            	<p>BROKERPANDA los incorpora al 8% en modelo dinámico y te recomienda ponerlos porcentuales al máximo un 10% en tu cuenta de tu operador, recuerda que si no son dinámicos tendrás que subirlos continuamente para mantener el margen de maniobra de la acción correspondiente. –ver video-</p>
+                            	<p>BROKERPANDA los incorpora al 8% en modelo dinámico y te recomienda ponerlos porcentuales al máximo un 10% en tu cuenta de tu operador, recuerda que si no son dinámicos tendrás que subirlos continuamente para mantener el margen de maniobra de la acción correspondiente.</p>
                             </div>
                         </div>
                         <!-- End Content -->
@@ -167,7 +167,7 @@
                             <!-- Details -->
                             <div class="card-body">
                             	<p>Depende del capital de cada uno, pero ya que dispones desde la versión más básica de 10 compañías, aprovecha al máximo la aplicación y diversifica mínimo en 5 de ellas conforme las operaciones aparezcan. </p>
-								<p>En el momento empieces a recibir las señales puede que BROKERPANDA esté dentro de algunas compañías  ya, en esos casos puedes esperar la siguiente notificación de compra o entrar con stops.-ver video-</p>
+								<p>En el momento empieces a recibir las señales puede que BROKERPANDA esté dentro de algunas compañías  ya, en esos casos puedes esperar la siguiente notificación de compra o entrar con stops.</p>
                             </div>
                         </div>
                         <!-- End Content -->
@@ -184,7 +184,7 @@
                         <div id="seven-11" class="collapse" aria-labelledby="seven-header-11" data-parent="#seven">
                             <!-- Details -->
                             <div class="card-body">
-                            	<p>Cuando BROKERPANDA te avisa de una venta, debes ejecutarla con la mayor prontitud posible, pues es la confirmación de que la compañía se ha dado la vuelta y nunca se sabe hasta cuándo. Lo mejor es salir y esperar otra subida en el futuro. Ver video</p>
+                            	<p>Cuando BROKERPANDA te avisa de una venta, debes ejecutarla con la mayor prontitud posible, pues es la confirmación de que la compañía se ha dado la vuelta y nunca se sabe hasta cuándo. Lo mejor es salir y esperar otra subida en el futuro.</p>
                             </div>
                         </div>
                         <!-- End Content -->

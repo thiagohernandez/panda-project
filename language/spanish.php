@@ -104,7 +104,7 @@ class Spanish {
 		'cansado' =>  '¿Estás cansado de perder',
 		'tudinero' =>  'tu dinero en La Bolsa?',
 		'teavisamos' =>  'Te avisamos cuando comprar, cuando vender y cuando esperar.',
-		'empieza' =>  'APROVECHE HOY 1 MES GRATIS',
+		'empieza' =>  'Nuestros precios',
 		'ultima_tecnologia' =>  'La última tecnología en ',
 		'inteligencia_artificial' =>  'inteligencia artificial financiera',
 		'robots_advisors' =>  'Los únicos robots advisors en funcionamiento desde 2011.',
@@ -235,7 +235,7 @@ class Spanish {
 		'losclientesconfeccionan10' => 'Si alguno desea  sacar más provecho, disponemos de un  club de Grandes Inversores donde se recibe la información 30 minutos antes que el resto.',
 		
 		//NUEVO DISEÑO PANDA ACADEMY.PHP
-		'losunicoslimites' => 'Los únicos límites son como siempre, los de la visión.',
+		'losunicoslimites' => 'Consigue gratis las 12 claves de la bolsa',
 		'publicacionespanda' => 'Publicaciones Panda',
 		'manualpractico' => 'Manual práctico que te ayudara a entender los principales puntales básicos para la inversión en bolsa moderna.',
 		'teexplicamos' => 'Te explicamos con palabras llanas y muchos gráficos la tecnología que usan grandes inversores para que la apliques lo antes posible.',

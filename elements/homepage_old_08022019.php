@@ -13,7 +13,7 @@
            <!-- Slide -->
            <li data-masterspeed="1000" data-transition="fade" data-thumb="img/pages/mobile-front.jpg" data-saveperformance="off" data-title="Create Stunning Website" data-description="Home Slider">
               <!-- Background Image -->
-              <img src="img/frontend/image__portada.jpg" alt="Broker Panda" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="0" class="rev-slidebg" data-no-retina>
+              <img src="content/rise-01/images/home_01.jpg" alt="Image Background" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="0" class="rev-slidebg" data-no-retina>
               
               <style>
               .tp-caption.white.bold.slide-title.rs-parallaxlevel-1 {
@@ -65,9 +65,9 @@
               data-voffset="['92','220','198','210']">
                  <!-- Add Video link, it will be visible when upload files to server -->
 				 <?php if ($language_name != "en") { ?>
-					<a href="#pricing" class=" slow lg-btn bold font-13 bg-colored white uppercase radius-lg qdr-hover-6 bs-lg-hover page-scroll">
+					<a href="#pricing" class="lightbox slow lg-btn bold font-13 bg-colored white uppercase radius-lg qdr-hover-6 bs-lg-hover page-scroll">
 				<?php }else{ ?>
-					<a href="#pricing" class=" slow lg-btn bold font-13 bg-colored white uppercase radius-lg qdr-hover-6 bs-lg-hover page-scroll">
+					<a href="#pricing" class="lightbox slow lg-btn bold font-13 bg-colored white uppercase radius-lg qdr-hover-6 bs-lg-hover page-scroll">
 				<?php } ?>
 
                     <?= txt('empieza') ?>
@@ -75,8 +75,76 @@
               </div>
               <!-- Layer -->
              
-            
-              
+              <!-- Mobile Devices -->
+              <!-- First Mobile -->
+              <div class="tp-caption uppercase rs-parallaxlevel-2"
+              data-x="['right','right','right','right']"
+              data-y="['middle','bottom','bottom','bottom']"
+              data-frames='[{"delay":"+1200","speed":2000,"frame":"0","from":"x:-50px;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+              data-hoffset="['220','40','-20','-40']"
+              data-voffset="['-50','-10','10','30']"
+              style="z-index:1;">
+                 <img
+                 src="img/pages/mobile-back.png"
+                 data-ww="['299px','450px','299px','299px']"
+                 data-hh="['449px','308px','449px','449px']"
+                 alt="mobile png ipad" />
+              </div>
+              <!-- Button On First Mobile -->
+              <div class="tp-caption nowrap uppercase rs-parallaxlevel-5"
+              data-x="['center','right','right','center']"
+              data-y="['middle','bottom','bottom','bottom']"
+              data-width="320px"
+              data-fontsize="['15','15','15','20']"
+              data-frames='[{"delay":"+3400","speed":2000,"frame":"0","from":"y:50px;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+              data-hoffset="['145','130','50','115']"
+              data-voffset="['-52','230','210','210']"
+              style="z-index:3;">
+                 <!-- Add your video and video's width and height -->
+                 <a href="#"
+                 class="stay mobile-button bg-colored white circle bs-xl icon-animated-lg bg-colored1-hover slow m-auto"
+                 data-toggle="popover" data-trigger="click"
+                 title="Inversiones optimizadas 24/7"
+                 data-placement="top"
+                 data-content="Somos únicos robo advisors con más de 7 años de histórico, así que le ayudaremos a ganar dinero continuamente solo siguiendo las señales y aprovechando las tendencias.">
+                    <i class="fa fa-plus"></i>
+                 </a>
+              </div>
+              <!-- Second Mobile -->
+              <div class="tp-caption uppercase rs-parallaxlevel-2"
+              data-x="['right','left','left','left']"
+              data-y="['bottom','bottom','bottom','bottom']"
+              data-start="2100"
+              data-frames='[{"delay":"+1500","speed":2000,"frame":"0","from":"y:50px;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+              data-hoffset="['20','100','40','0']"
+              data-voffset="['100','-30','-15','10']"
+              style="z-index:2;">
+                 <img
+                 src="img/pages/mobile-front.png"
+                 data-ww="['300px','300px','340px','300px']"
+                 data-hh="['422px','422px','327px','422px']"
+                 alt="mobile png iphone" />
+              </div>
+              <!-- Button On Second Mobile -->
+              <div class="tp-caption nowrap uppercase rs-parallaxlevel-5"
+              data-x="['right','left','left','left']"
+              data-y="['middle','bottom','bottom','bottom']"
+              data-fontsize="['15','15','15','20']"
+              data-width="320px"
+              data-frames='[{"delay":"+3700","speed":2000,"frame":"0","from":"y:50px;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+              data-hoffset="['42','50','-10','-75']"
+              data-voffset="['-112','230','230','245']"
+              style="z-index:3;">
+                 <!-- Add your video and video's width and height -->
+                 <a href="#"
+                 class="stay mobile-button bg-colored white circle bs-xl icon-animated-lg bg-colored1-hover slow m-auto"
+                 data-toggle="popover" data-trigger="click"
+                 title="+500 Compañias"
+                 data-placement="top"
+                 data-content="Podrás elegir entre seguir nuestras selecciones de cada mercado o seleccionar tus propias compañías de entre más de 500 de todo el mundo</div>">
+                    <i class="fa fa-plus"></i>
+                 </a>
+              </div>
            </li>
            <!-- End Slide -->
            
@@ -95,9 +163,19 @@
 				<!-- Model Container - Left Positioned -->
 	            <div class="model hotspots height-auto-mobile">
 	                <!-- Your image is here -->
-	                <img src="images/loader.gif" data-original="img/frontend/inteligencia-broker-panda.jpg" alt="hotspot image">
+	                <img src="images/loader.gif" data-original="img/app-broker-panda-3.jpg" alt="hotspot image">
 	                <!-- Hotpoints -->
-	                
+	                <div class="items">
+	                    <!-- Item -->
+	                    <a href="javascript:void(0);" class="item icon-sm icon-mobile-xs circle bg-white icon-animated white animated"
+	                        style="left:65%; top:27.8%;"
+	                        data-toggle="popover"
+	                        data-trigger="hover"
+	                        data-placement="bottom"
+	                        title="Nuestros pandas nunca duermen"
+	                        data-content="La última tecnología en inteligencia artificial.</div>">
+	                    </a>
+	                </div>
 	            </div>
 	            <!-- End Left Area -->
 			</div>
@@ -246,7 +324,6 @@
 
 
 	<?php include ("./elements/precios.php"); ?>
-	<?php include ("./elements/testimonios.php"); ?>
 
 	<?php include ("./elements/faq.php"); ?>
 

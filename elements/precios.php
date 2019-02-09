@@ -1,4 +1,4 @@
-<div class="padding-large">
+<div class="padding-large" id="pricing">
 	<div class="qdr-col-3 container t-center gray8 sm-pb">
 		<!-- Box -->
 		<div>
@@ -31,7 +31,7 @@
 				<!-- Button -->
 				<div class="xs-my xs-pl xs-pr">
 					<!-- Button trigger modal -->
-					<a href="#pricingTables01" class="btn btn-block btn-primary slow" data-toggle="modal" data-target="#pricingTables01">
+					<a href="#pricingTables01" class="btn btn-block btn-green slow" data-toggle="modal" data-target="#pricingTables01">
 						<?= txt('comprar') ?>
 					</a>
 				</div>
@@ -71,7 +71,7 @@
 				<!-- Button -->
 				<div class="xs-my xs-pl xs-pr">
 					<!-- Button -->
-					<a href="#pricingTables02" class="btn btn-block btn-primary slow" data-toggle="modal" data-target="#pricingTables02">
+					<a href="#pricingTables02" class="btn btn-block btn-green slow" data-toggle="modal" data-target="#pricingTables02">
 						<?= txt('comprar') ?>
 					</a>
 				</div>
@@ -110,7 +110,7 @@
 				<!-- Button -->
 				<div class="xs-my xs-pl xs-pr">
 					<!-- Button -->
-					<a href="#pricingTables03" class="btn btn-block btn-primary slow" data-toggle="modal" data-target="#pricingTables03">
+					<a href="#pricingTables03" class="btn btn-block btn-green slow" data-toggle="modal" data-target="#pricingTables03">
 						<?= txt('comprar') ?>
 					</a>
 				</div>
@@ -142,7 +142,7 @@
 										<h3><span class="text-lg2 extrabold">9</span>,90€</h3>
 									</div>
 									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
 									</p>
 		                        </div>
 		                    </div>
@@ -152,11 +152,11 @@
 		                        <div class="text-center">
 		                            <h2 class="bold-title text-center">TOP 10 <br><small>+ 5 compañías</small></h2>
 		                            <div class="pricing-tables__price">
-										<p class="tachado">19<small>,90€</small></p>
-										<h3><span class="text-lg2 extrabold">39</span>,90€</h3>
+										<p class="tachado">39<small>,90€</small></p>
+										<h3><span class="text-lg2 extrabold">19</span>,90€</h3>
 									</div>
 									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
 									</p>
 		                        </div>
 		                    </div>
@@ -166,11 +166,11 @@
 		                        <div class="text-center">
 		                            <h2 class="bold-title text-center">TOP 10 <br><small>+ todo el mercado</small></h2>
 		                            <div class="pricing-tables__price">
-										<p class="tachado">29<small>,90€</small></p>
-										<h3><span class="text-lg2 extrabold">64</span>,80€</h3>
+										<p class="tachado">64<small>,80€</small></p>
+										<h3><span class="text-lg2 extrabold">29</span>,90€</h3>
 									</div>
 									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
 									</p>
 		                        </div>
 		                    </div>
@@ -207,7 +207,7 @@
 										<h3><span class="text-lg2 extrabold">99</span>,90€</h3>
 									</div>
 									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
 									</p>
 		                        </div>
 		                    </div>
@@ -221,7 +221,7 @@
 										<h3><span class="text-lg2 extrabold">189</span>,90€</h3>
 									</div>
 									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
 									</p>
 		                        </div>
 		                    </div>
@@ -235,7 +235,7 @@
 										<h3><span class="text-lg2 extrabold">599</span>,90€</h3>
 									</div>
 									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
 									</p>
 		                        </div>
 		                    </div>
@@ -272,7 +272,7 @@
 										<h3><span class="text-lg2 extrabold">789</span>,90€</h3>
 									</div>
 									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
 									</p>
 		                        </div>
 		                    </div>
@@ -286,7 +286,7 @@
 										<h3><span class="text-lg2 extrabold">999</span>,00€</h3>
 									</div>
 									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
 									</p>
 		                        </div>
 		                    </div>
@@ -300,7 +300,7 @@
 										<h3><span class="text-lg2 extrabold">1.899</span>,00€</h3>
 									</div>
 									<p class="text-center">
-										<a class="btn btn-block btn-primary slow" href="#" role="button"><?= txt('comprar') ?></a>
+										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
 									</p>
 		                        </div>
 		                    </div>

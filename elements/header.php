@@ -53,7 +53,8 @@
 		<?php } ?>
 		<ul class="navbar-nav mr-auto">
 		  <li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ES</a>
+
+			<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">ES</a>
 			<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
 				<?php if ($language_name != "en") { ?>
 					<a class="dropdown-item" href="/home/<?= $page_to_serve ?>?lang=en"><?= txt('english') ?></a>

@@ -97,11 +97,7 @@
         <link rel="stylesheet" href="css/theme.min.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-		<!-- Bootstrap core JavaScript
-		================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<!-- <script src="js/vendor/jquery-3.3.1.min.js"></script> -->
-		<script type="text/javascript" src="js/jquery.min.js"></script>
+		
 
 		
     </head>
@@ -141,8 +137,17 @@
 			//include ("./elements/panda_school.php");
 		}
 	?>
-		<!-- <script src="js/vendor/popper.min.js"></script> -->
-		<script src="js/vendor/bootstrap.bundle.min.js"></script>
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<!-- <script src="js/vendor/jquery-3.3.1.min.js"></script> -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+
+		
+		<script src="js/vendor/popper.min.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+		
 
 
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -160,6 +165,8 @@
 	    <script type="text/javascript" src="js/scripts.js?v=2.2"></script>
 
 		<script src="js/frontend.js"></script>
+
+
 		<!-- END JS FILES -->
     </body>
 </html>

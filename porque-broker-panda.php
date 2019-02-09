@@ -134,7 +134,10 @@
                                     <th scope="col">2013</th>
                                     <th scope="col">2014</th>
                                     <th scope="col">2015</th>
-                                    <th scope="col" colspan="2">Comp. Sum</th>
+                                    <th scope="col">2016</th>
+                                    <th scope="col">2017</th>
+                                    <th scope="col">2018</th>
+                                    <th scope="col" colspan="4">Comp. Sum</th>
                                 </tr>
                                 <tr>
                                     <th scope="col" class="bg-panda">PANDA</th>
@@ -142,8 +145,14 @@
                                     <th scope="col" class="bg-panda">PANDA</th>
                                     <th scope="col" class="bg-panda">PANDA</th>
                                     <th scope="col" class="bg-panda">PANDA</th>
-                                    <th scope="col" class="bg-index">INDEX</th>
+
                                     <th scope="col" class="bg-panda">PANDA</th>
+                                    <th scope="col" class="bg-panda">PANDA</th>
+                                    <th scope="col" class="bg-panda">PANDA</th>
+                                    <th scope="col" class="bg-panda">PANDA</th>
+                                    <th scope="col" class="bg-index">INDEX</th>
+                                    <th scope="col" class="bg-panda">DIF.</th>
+                                    <th scope="col" class="bg-index">INDEX 2018</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -152,70 +161,120 @@
                                     <td><span class="tint-value">2%</span></td>
                                     <td><span class="tint-value">20%</span></td>
                                     <td><span class="tint-value">6%</span></td>
-                                    <td><span class="tint-value">7,7%</span></td>
-                                    <td><span class="tint-value">5,1%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">-3,2%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">47%</span></td>
+                                    <td><span class="tint-value">8%</span></td>
+                                    <td><span class="tint-value">5%</span></td>
+                                    <td><span class="tint-value">12%</span></td>
+                                    <td><span class="tint-value">15%</span></td>
+                                    <td><span class="tint-value">1%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">69%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">2%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">67%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">-17%</span></td>
                                 </tr>
                                 <tr>
                                     <td class="text-right">FTSE</td>
                                     <td><span class="tint-value">7%</span></td>
                                     <td><span class="tint-value">27%</span></td>
                                     <td><span class="tint-value">13%</span></td>
-                                    <td><span class="tint-value">7,1%</span></td>
-                                    <td><span class="tint-value">5,5%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">5,8%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">74%</span></td>
+                                    <td><span class="tint-value">7%</span></td>
+                                    <td><span class="tint-value">6%</span></td>
+                                    <td><span class="tint-value">31%</span></td>
+                                    <td><span class="tint-value">13%</span></td>
+                                    <td><span class="tint-value">2%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">106%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">29%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">77%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">-13%</span></td>
                                 </tr>
                                 <tr>
                                     <td class="text-right">CAC 40</td>
                                     <td><span class="tint-value">0%</span></td>
                                     <td><span class="tint-value">17%</span></td>
                                     <td><span class="tint-value">8%</span></td>
-                                    <td><span class="tint-value">8,8%</span></td>
-                                    <td><span class="tint-value">20,3%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">28,8%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">65%</span></td>
+                                    <td><span class="tint-value">9%</span></td>
+                                    <td><span class="tint-value">20%</span></td>
+                                    <td><span class="tint-value">16%</span></td>
+                                    <td><span class="tint-value">17%</span></td>
+                                    <td><span class="tint-value">2%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">89%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">37%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">52%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">-13%</span></td>
                                 </tr>
                                 <tr>
                                     <td class="text-right">DAX 30</td>
                                     <td><span class="tint-value">3%</span></td>
                                     <td><span class="tint-value">31%</span></td>
                                     <td><span class="tint-value">9%</span></td>
-                                    <td><span class="tint-value">6,2%</span></td>
-                                    <td><span class="tint-value">15,6%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">51,5%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">81%</span></td>
+                                    <td><span class="tint-value">6%</span></td>
+                                    <td><span class="tint-value">16%</span></td>
+                                    <td><span class="tint-value">26%</span></td>
+                                    <td><span class="tint-value">18%</span></td>
+                                    <td><span class="tint-value">-2%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">107%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">85%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">22%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">-20%</span></td>
                                 </tr>
                                 <tr>
                                     <td class="text-right">FTSE-MIB</td>
                                     <td><span class="tint-value"></span></td>
                                     <td><span class="tint-value">34%</span></td>
                                     <td><span class="tint-value">22%</span></td>
-                                    <td><span class="tint-value">16,5%</span></td>
-                                    <td><span class="tint-value">22,4%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">6,2%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">133%</span></td>
+                                    <td><span class="tint-value">17%</span></td>
+                                    <td><span class="tint-value">22%</span></td>
+                                    <td><span class="tint-value">35%</span></td>
+                                    <td><span class="tint-value">9%</span></td>
+                                    <td><span class="tint-value">-1%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">138%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">47%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">91%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">-19%</span></td>
                                 </tr>
                                 <tr>
                                     <td class="text-right">AEX</td>
                                     <td><span class="tint-value"></span></td>
                                     <td><span class="tint-value">23%</span></td>
                                     <td><span class="tint-value">4%</span></td>
-                                    <td><span class="tint-value">2,6%</span></td>
-                                    <td><span class="tint-value">17,7%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">24,6%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">55%</span></td>
+                                    <td><span class="tint-value">3%</span></td>
+                                    <td><span class="tint-value">18%</span></td>
+                                    <td><span class="tint-value">15%</span></td>
+                                    <td><span class="tint-value">21%</span></td>
+                                    <td><span class="tint-value">3%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">86%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">75%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">11%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">-12%</span></td>
                                 </tr>
                                 <tr>
                                     <td class="text-right">SMI</td>
                                     <td><span class="tint-value"></span></td>
                                     <td><span class="tint-value">17%</span></td>
                                     <td><span class="tint-value">15%</span></td>
-                                    <td><span class="tint-value">6,4%</span></td>
-                                    <td><span class="tint-value">11,1%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">37%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">59%</span></td>
+                                    <td><span class="tint-value">6%</span></td>
+                                    <td><span class="tint-value">11%</span></td>
+                                    <td><span class="tint-value">5%</span></td>
+                                    <td><span class="tint-value">16%</span></td>
+                                    <td><span class="tint-value">2%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">73%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">50%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">23%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">-11%</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="text-right">RUSSIA</td>
+                                    <td><span class="tint-value"></span></td>
+                                    <td><span class="tint-value"></span></td>
+                                    <td><span class="tint-value"></span></td>
+                                    <td><span class="tint-value"></span></td>
+                                    <td><span class="tint-value"></span></td>
+                                    <td><span class="tint-value">90%</span></td>
+                                    <td><span class="tint-value">15%</span></td>
+                                    <td><span class="tint-value">15%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">120%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">70%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">50%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">-12%</span></td>
                                 </tr>
                                 <tr class="spacer-table">
                                     <td colspan="8"></td>
@@ -225,126 +284,45 @@
                                     <td><span class="tint-value">11%</span></td>
                                     <td><span class="tint-value">19%</span></td>
                                     <td><span class="tint-value">16%</span></td>
-                                    <td><span class="tint-value">7,2%</span></td>
+                                    <td><span class="tint-value">7%</span></td>
                                     <td><span class="tint-value">6%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">50,5%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">74%</span></td>
+                                    <td><span class="tint-value">26%</span></td>
+                                    <td><span class="tint-value">29%</span></td>
+                                    <td><span class="tint-value">0%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">114%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">113%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">1%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">-7%</span></td>
                                 </tr>
                                 <tr>
                                     <td class="text-right">NASDAQ</td>
                                     <td><span class="tint-value">11%</span></td>
                                     <td><span class="tint-value">19%</span></td>
                                     <td><span class="tint-value">19%</span></td>
-                                    <td><span class="tint-value">21,4%</span></td>
+                                    <td><span class="tint-value">21%</span></td>
                                     <td><span class="tint-value">16%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">88,7%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">121%</span></td>
+                                    <td><span class="tint-value">28%</span></td>
+                                    <td><span class="tint-value">39%</span></td>
+                                    <td><span class="tint-value">1%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">154%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">170%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">-16%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">-6%</span></td>
                                 </tr>
                                 <tr>
                                     <td class="text-right">SP 500</td>
                                     <td><span class="tint-value"></span></td>
                                     <td><span class="tint-value"></span></td>
                                     <td><span class="tint-value">16%</span></td>
-                                    <td><span class="tint-value">11,1%</span></td>
-                                    <td><span class="tint-value">16%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">43,3%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">49%</span></td>
-                                </tr>
-                                <tr class="spacer-table">
-                                    <td colspan="8"></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-right">MERVAL</td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value">35%</span></td>
-                                    <td><span class="tint-value">91,5%</span></td>
-                                    <td><span class="tint-value">52%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">309%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">293%</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-right">BOVESPA</td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value">12%</span></td>
-                                    <td><span class="tint-value">31,5%</span></td>
-                                    <td><span class="tint-value">14,9%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">-28%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">69%</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-right">MXX</td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value"></span></td>
                                     <td><span class="tint-value">11%</span></td>
-                                    <td><span class="tint-value">24,9%</span></td>
-                                    <td><span class="tint-value">12,2%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">-1,7%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">56%</span></td>
-                                </tr>
-                                <tr class="spacer-table">
-                                    <td colspan="8"></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-right">HANG SENG</td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value">5%</span></td>
-                                    <td><span class="tint-value">11,3%</span></td>
-                                    <td><span class="tint-value">10%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">-3,3%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">29%</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-right">KLSE MALAYSIA</td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value">8%</span></td>
-                                    <td><span class="tint-value">3,3%</span></td>
-                                    <td><span class="tint-value">5%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">0,3%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">17%</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-right">JKSE YACARTA</td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value">57%</span></td>
-                                    <td><span class="tint-value">23,6%</span></td>
-                                    <td><span class="tint-value">20,5%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">6,4%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">134%</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-right">STI SINGAPORE</td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value">5%</span></td>
-                                    <td><span class="tint-value">10,6%</span></td>
-                                    <td><span class="tint-value">1,9%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">9,9%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">18%</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-right">ALL AUSTRALIA</td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value">12%</span></td>
-                                    <td><span class="tint-value">4,2%</span></td>
-                                    <td><span class="tint-value">7,2%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">14,5%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">25%</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-right">BSE 30-BOMBAY</td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value"></span></td>
-                                    <td><span class="tint-value">31,7%</span></td>
-                                    <td><span class="tint-value">8,2%</span></td>
-                                    <td class="bg-index-overlay"><span class="tint-value">23,3%</span></td>
-                                    <td class="bg-panda-overlay"><span class="tint-value">42%</span></td>
+                                    <td><span class="tint-value">16%</span></td>
+                                    <td><span class="tint-value">23%</span></td>
+                                    <td><span class="tint-value">27%</span></td>
+                                    <td><span class="tint-value">2%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">95%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">85%</span></td>
+                                    <td class="bg-panda-overlay"><span class="tint-value">10%</span></td>
+                                    <td class="bg-index-overlay"><span class="tint-value">-8%</span></td>
                                 </tr>
                             </tbody>
                           
