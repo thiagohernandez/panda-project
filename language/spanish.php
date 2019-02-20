@@ -181,6 +181,7 @@ class Spanish {
 		'ano' =>  'año',
 		'premiumworld' =>  'PREMIUM WORLD',
 		'grandesfamily' =>  'Grandes Family Office, Fondos  de Inversión',
+		'garantiadevolucionons' => 'GARANTÍA de devolución de la suscripción si no superamos al índice de referencia del mercado durantes los últimos 12 meses',  
 		
 		
 		//NUEVO DISEÑO PORQUE BROKER PANDA.PHP
@@ -223,11 +224,11 @@ class Spanish {
 		'rentabilidad12' => 'Rentabilidad',
 		'obtenerpara' => 'Obtenemos para nuestros clientes un rendimiento del 11,7 % anual de media, superándolo ampliamente algunos años en los mercados de todo el mundo. ',
 		'conlosbeneficios' => 'Con los beneficios del interés compuesto, nuestros clientes pueden llegar al 100 % en 5 años.',
-		'losclientesconfeccionan' => 'Los clientes confeccionan en nuestra aplicación de Brokerpanda un portafolio de compañías entre las mejores del mundo.',
-		'losclientesconfeccionan2' => 'Nuestros ROBOTRADERS analizan los mercados y marcan los cambios de tendencia en todas las compañías; conocerán los cambios por los pandas negros de los índices principales a la apertura de los mercados.',
-		'losclientesconfeccionan3' => 'En el caso de que las compañías que cambian su tendencia coincidan con las de su portafolio, las señales se les notificarán con pandas verdes de compra o rojos de venta. Estas señales sólo aparecerán un día.',
-		'losclientesconfeccionan4' => 'Recibirán un e-mail diario con un aviso de las señales de su portafolio, y  si descargan la aplicación móvil les llegará la notificación PUSH.',
-		'losclientesconfeccionan5' => 'El portafolio que ha seleccionado refleja una rentabilidad basada en nuestros registros que les servirán a compararnos con cualquier otro.',
+		'losclientesconfeccionan' => 'Los clientes disponen de su TOP10 ,TOP20, TOP30 preseleccionado y pueden ampliar y confeccionar su portafolio además entre las mejores compañías del mundo. Sobre dicha selección enviaremos nuestros resultados para comprar, vender, mantener/ esperar.',
+		'losclientesconfeccionan2' => 'Nuestra Inteligencia Artificial analiza diariamente todas las compañías y reconocen todos los cambios de tendencia de cada una de ellas, lo compara con los datos históricos para adelantarse a los movimientos del mercado y envía las alertas a los distintos portafolios de cada cliente.',
+		'losclientesconfeccionan3' => 'Recibirán un e-mail diario que les informará de las evoluciones y de las alertas correspondientes. Las señales de compra y venta de las compañías solamente aparecerán un día, luego se encuentran en mantener/esperar.',
+		'losclientesconfeccionan4' => 'La información llega a la apertura de los mercados e incluso en preapertura para los planes avanzados. Es muy importante que se ejecuten las ordene en el menor tiempo posible para maximizar tus resultados.',
+		'losclientesconfeccionan5' => 'Para añadir nuevos mercados y compañías, ver gráficos y estadísticas para ayudarte a la toma de decisiones dispones de su propia área persona',
 		'losclientesconfeccionan6' => 'Disponen de  toda la información necesaria en el análisis de cada compañía para ayudarles a la toma de decisiones. Nuestro objetivo es la optimización de cualquier compañía en el medio y largo plazo.',
 		'losclientesconfeccionan7' => 'En las estadísticas se puede ver como se han comportado nuestros ROBOTRADERS en el pasado. En uno, dos y cinco años.',
 		'losclientesconfeccionan8' => 'En los gráficos tendrán una imagen perfecta de cada actuación y comprobarán nuestro mejor argumento: cortar pérdidas y dejar correr los beneficios.',

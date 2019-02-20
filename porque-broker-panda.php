@@ -20,104 +20,81 @@
         font-size: 13px;}
 </style>
 
-    <section class="slider-reasons">
 
-        <!-- BOXES -->
-        <div class="t-center custom-slider custom-dots c-resize" data-slick='{"dots": true, "autoplay": true, "autoplaySpeed": 3000, "arrows": false, "draggable":true, "slidesToShow": 4, "slidesToScroll": 1}'>
-            <!-- Box - You can remove .stay class when you add an url -->
-            <div class="xxs-px bg-gray-hover slow sm-py">
-                <!-- Icon -->
-                <div class="inline-block">
-                    <span class="text-lg2 bold-title gray3">01</span>
-                </div>
-                <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan') ?></p>
-            </div>
-            <!-- End Box -->
-            <!-- Box - You can remove .stay class when you add an url -->
-            <div class="xxs-px bg-gray-hover slow sm-py">
-                <!-- Icon -->
-                <div class="inline-block">
-                    <span class="text-lg2 bold-title gray3">02</span>
-                </div>
-                <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan2') ?></p>
-            </div>
-            <!-- End Box -->
-            <!-- Box - You can remove .stay class when you add an url -->
-            <div class="xxs-px bg-gray-hover slow sm-py">
-                <!-- Icon -->
-                <div class="inline-block">
-                    <span class="text-lg2 bold-title gray3">03</span>
-                </div>
-                <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan3') ?></p>
-            </div>
-            <!-- End Box -->
-            <!-- Box - You can remove .stay class when you add an url -->
-            <div class="xxs-px bg-gray-hover slow sm-py">
-                <!-- Icon -->
-                <div class="inline-block">
-                    <span class="text-lg2 bold-title gray3">04</span>
-                </div>
-                <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan4') ?></p>
-            </div>
-            <!-- End Box -->
-            <!-- Box - You can remove .stay class when you add an url -->
-            <div class="xxs-px bg-gray-hover slow sm-py">
-                <!-- Icon -->
-                <div class="inline-block">
-                    <span class="text-lg2 bold-title gray3">05</span>
-                </div>
-                <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan5') ?></p>
-            </div>
-            <!-- End Box -->
-            <!-- Box - You can remove .stay class when you add an url -->
-            <div class="xxs-px bg-gray-hover slow sm-py">
-                <!-- Icon -->
-                <div class="inline-block">
-                    <span class="text-lg2 bold-title gray3">06</span>
-                </div>
-                <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan6') ?></p>
-            </div>
-            <!-- End Box -->
-            <!-- Box - You can remove .stay class when you add an url -->
-            <div class="xxs-px bg-gray-hover slow sm-py">
-                <!-- Icon -->
-                <div class="inline-block">
-                    <span class="text-lg2 bold-title gray3">07</span>
-                </div>
-                <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan7') ?></p>
-            </div>
-            <!-- End Box -->
-            <!-- Box - You can remove .stay class when you add an url -->
-            <div class="xxs-px bg-gray-hover slow sm-py">
-                <!-- Icon -->
-                <div class="inline-block">
-                    <span class="text-lg2 bold-title gray3">08</span>
-                </div>
-                <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan8') ?></p>
-            </div>
-            <!-- End Box -->
-            <!-- Box - You can remove .stay class when you add an url -->
-            <div class="xxs-px bg-gray-hover slow sm-py">
-                <!-- Icon -->
-                <div class="inline-block">
-                    <span class="text-lg2 bold-title gray3">09</span>
-                </div>
-                <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan9') ?></p>
-            </div>
-            <!-- End Box -->
-            <!-- Box - You can remove .stay class when you add an url -->
-            <div class="xxs-px bg-gray-hover slow sm-py">
-                <!-- Icon -->
-                <div class="inline-block">
-                    <span class="text-lg2 bold-title gray3">10</span>
-                </div>
-                <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan10') ?></p>
-            </div>
-            <!-- End Box -->
+        <div class="container-fluid">
 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="grid-reasons">
+                        <!-- Box - You can remove .stay class when you add an url -->
+
+                        <div class="xxs-px bg-gray-hover slow sm-py">
+                            <!-- Icon -->
+                            <div class="inline-block">
+                                <span class="text-lg2 bold-title gray3">01</span>
+                            </div>
+                            <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan') ?></p>
+                        </div>
+                        <!-- End Box -->
+                        <!-- Box - You can remove .stay class when you add an url -->
+                        <div class="xxs-px bg-gray-hover slow sm-py">
+                            <!-- Icon -->
+                            <div class="inline-block">
+                                <span class="text-lg2 bold-title gray3">02</span>
+                            </div>
+                            <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan2') ?></p>
+                        </div>
+                        <!-- End Box -->
+                        <!-- Box - You can remove .stay class when you add an url -->
+                        <div class="xxs-px bg-gray-hover slow sm-py">
+                            <!-- Icon -->
+                            <div class="inline-block">
+                                <span class="text-lg2 bold-title gray3">03</span>
+                            </div>
+                            <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan3') ?></p>
+                        </div>
+                        <!-- End Box -->
+                        <!-- Box - You can remove .stay class when you add an url -->
+                        <div class="xxs-px bg-gray-hover slow sm-py">
+                            <!-- Icon -->
+                            <div class="inline-block">
+                                <span class="text-lg2 bold-title gray3">04</span>
+                            </div>
+                            <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan4') ?></p>
+                        </div>
+                        <!-- End Box -->
+                        <!-- Box - You can remove .stay class when you add an url -->
+                        <div class="xxs-px bg-gray-hover slow sm-py">
+                            <!-- Icon -->
+                            <div class="inline-block">
+                                <span class="text-lg2 bold-title gray3">05</span>
+                            </div>
+                            <p class="xxs-mt fs-13"><?= txt('losclientesconfeccionan5') ?></p>
+                        </div>
+                        <!-- End Box -->
+                    </div>
+                </div>
+            </div>
         </div>
+        <style>
+            .grid-reasons {
+                display: -ms-grid;
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            }
+            @media (max-width: 990px) {
+                .grid-reasons {
+                    grid-template-columns: 1fr 1fr 1fr;
+                }   
+            }
+            @media (max-width: 767px) {
+                .grid-reasons {
+                    grid-template-columns: 1fr 1fr;
+                }   
+            }
+        </style>
 
-    </section>
 
     <section class="map-table bg-pattern bg-animated" data-background="img/pages/bg-dotted-world-map.jpg">
         <div class="container">

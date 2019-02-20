@@ -19,13 +19,13 @@
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('top10') ?></li>
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <strong><?= txt('1mercado') ?></strong><?= txt('atueleccion') ?></li>        
 					
-					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('garantiadedevolucion') ?></li> 
+					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('garantiadedevolucion') ?><sup>*</sup></li> 
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('alertasapertura') ?></li>
 					
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('estadisticasdesde') ?></li>
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('emaildiario') ?> </li>
 					
-					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('posibilidaddeelegir') ?> <?= txt('conlaposibilidad') ?></li>
+					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('posibilidaddeelegir') ?></li>
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('rentabilidadestimada') ?> </li>
 				</ul>
 				<!-- Button -->
@@ -58,7 +58,7 @@
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('top20') ?> <?= txt('decadamercado') ?></li>
 				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <strong><?= txt('1continente') ?></strong> <?= txt('atueleccion') ?></li>
 				  
-				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('garantiadedevolucion') ?> </li>
+				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('garantiadedevolucion') ?><sup>*</sup></li>
 				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('15minantes') ?></li>
 				  
 				  <li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('estadisticasdesde') ?></li>
@@ -97,7 +97,7 @@
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('top30') ?> <?= txt('decadamercado') ?> <?= txt('delmundo') ?></li>
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <strong> <?= txt('todoslosmercados') ?></strong> </li>
 					
-					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('garantiadedevolucion') ?> </li>
+					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('garantiadedevolucion') ?><sup>*</sup></li>
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('30minantes') ?></li>
 					
 					<li class="px-26"><small class="text-green"><i class="fas fa-check"></i></small> <?= txt('estadisticasdesde') ?></li>
@@ -114,6 +114,15 @@
 						<?= txt('comprar') ?>
 					</a>
 				</div>
+			</div>
+		</div>
+
+		
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<small style="opacity:0.7;">* <?= txt('garantiadevolucionons') ?></small>
 			</div>
 		</div>
 	</div>
@@ -175,6 +184,11 @@
 		                        </div>
 		                    </div>
 	                    </div>
+                    </div>
+                    <div class="row">
+                    	<div class="col-md-12">
+                    		<p><small>Ofertas validas para el primer año.</small></p>
+                    	</div>
                     </div>
                 </div>
             </div>
@@ -241,6 +255,11 @@
 		                    </div>
 	                    </div>
                     </div>
+                    <div class="row">
+                    	<div class="col-md-12">
+                    		<p><small>Ofertas validas para el primer año.</small></p>
+                    	</div>
+                    </div>
                 </div>
             </div>
             <!-- End Modal Content -->
@@ -305,6 +324,11 @@
 		                        </div>
 		                    </div>
 	                    </div>
+                    </div>
+                    <div class="row">
+                    	<div class="col-md-12">
+                    		<p><small>Ofertas validas para el primer año.</small></p>
+                    	</div>
                     </div>
                 </div>
             </div>
