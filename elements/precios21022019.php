@@ -11,7 +11,7 @@
 					<!-- Price -->
 					<div class="pricing-tables__price">
 						<p class="tachado">29<small>,90€</small></p>
-						<h3><span class="text-lg2 extrabold">9</span>,90</h3>
+						<h3><span class="text-lg2 extrabold">9</span>,90€</h3>
 					</div>
 				</div>
 				<!-- List -->
@@ -49,7 +49,7 @@
 					<!-- Price -->
 					<div class="pricing-tables__price">
 						<p class="tachado">289<small>,00€</small></p>
-						<h3><span class="text-lg2 extrabold">99</span>,90</h3>
+						<h3><span class="text-lg2 extrabold">99</span>,90€</h3>
 					</div>
 				</div>
 				<!-- List -->
@@ -88,7 +88,7 @@
 					<!-- Price -->
 					<div class="pricing-tables__price">
 						<p class="tachado">1.489<small>,00€</small></p>
-						<h3><span class="text-lg2 extrabold">789</span></h3>
+						<h3><span class="text-lg2 extrabold">789</span>,00€</h3>
 					</div>
 				</div>
 				<!-- List -->
@@ -148,7 +148,7 @@
 		                            <h2 class="bold-title text-center">TOP 10 <br><small>&nbsp;</small></h2>
 		                            <div class="pricing-tables__price">
 										<p class="tachado">29<small>,90€</small></p>
-										<h3><span class="text-lg2 extrabold">9</span>,90</h3>
+										<h3><span class="text-lg2 extrabold">9</span>,90€</h3>
 									</div>
 									<p class="text-center">
 										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
@@ -162,7 +162,7 @@
 		                            <h2 class="bold-title text-center">TOP 10 <br><small>+ 5 compañías</small></h2>
 		                            <div class="pricing-tables__price">
 										<p class="tachado">39<small>,90€</small></p>
-										<h3><span class="text-lg2 extrabold">19</span>,90</h3>
+										<h3><span class="text-lg2 extrabold">19</span>,90€</h3>
 									</div>
 									<p class="text-center">
 										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
@@ -176,7 +176,7 @@
 		                            <h2 class="bold-title text-center">TOP 10 <br><small>+ todo el mercado</small></h2>
 		                            <div class="pricing-tables__price">
 										<p class="tachado">64<small>,80€</small></p>
-										<h3><span class="text-lg2 extrabold">29</span>,90</h3>
+										<h3><span class="text-lg2 extrabold">29</span>,90€</h3>
 									</div>
 									<p class="text-center">
 										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
@@ -187,7 +187,7 @@
                     </div>
                     <div class="row">
                     	<div class="col-md-12">
-                    		<p><small>Ofertas para los próximos 12 meses de tu suscripción.</small></p>
+                    		<p><small>Ofertas validas para el primer año.</small></p>
                     	</div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
 		                            <h2 class="bold-title text-center">TOP 20 <br><small>&nbsp;</small></h2>
 		                            <div class="pricing-tables__price">
 										<p class="tachado">289<small>,90€</small></p>
-										<h3><span class="text-lg2 extrabold">99</span>,90</h3>
+										<h3><span class="text-lg2 extrabold">99</span>,90€</h3>
 									</div>
 									<p class="text-center">
 										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
@@ -232,7 +232,7 @@
 		                            <h2 class="bold-title text-center">TOP 20 <br><small>+ 30 compañías</small></h2>
 		                            <div class="pricing-tables__price">
 										<p class="tachado">398<small>,90€</small></p>
-										<h3><span class="text-lg2 extrabold">189</span>,90</h3>
+										<h3><span class="text-lg2 extrabold">189</span>,90€</h3>
 									</div>
 									<p class="text-center">
 										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
@@ -246,7 +246,7 @@
 		                            <h2 class="bold-title text-center">TOP 20 <br><small>+ todo el continente</small></h2>
 		                            <div class="pricing-tables__price">
 										<p class="tachado">1.380<small>,00€</small></p>
-										<h3><span class="text-lg2 extrabold">599</span>,90</h3>
+										<h3><span class="text-lg2 extrabold">599</span>,90€</h3>
 									</div>
 									<p class="text-center">
 										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
@@ -257,7 +257,7 @@
                     </div>
                     <div class="row">
                     	<div class="col-md-12">
-                    		<p><small>Ofertas para los próximos 12 meses de tu suscripción.</small></p>
+                    		<p><small>Ofertas validas para el primer año.</small></p>
                     	</div>
                     </div>
                 </div>
@@ -288,7 +288,7 @@
 		                            <h2 class="bold-title text-center">TOP 30 <br><small>&nbsp;</small></h2>
 		                            <div class="pricing-tables__price">
 										<p class="tachado">1.489<small>,00€</small></p>
-										<h3><span class="text-lg2 extrabold">789</span>,90</h3>
+										<h3><span class="text-lg2 extrabold">789</span>,90€</h3>
 									</div>
 									<p class="text-center">
 										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
@@ -302,7 +302,7 @@
 		                            <h2 class="bold-title text-center">TOP 30 <br><small>+ 30 compañías</small></h2>
 		                            <div class="pricing-tables__price">
 										<p class="tachado">2.100<small>,00€</small></p>
-										<h3><span class="text-lg2 extrabold">999</span></h3>
+										<h3><span class="text-lg2 extrabold">999</span>,00€</h3>
 									</div>
 									<p class="text-center">
 										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
@@ -316,7 +316,7 @@
 		                            <h2 class="bold-title text-center">TOP 30 <br><small>+ todo el mundo</small></h2>
 		                            <div class="pricing-tables__price">
 										<p class="tachado">4.800<small>,00€</small></p>
-										<h3><span class="text-lg2 extrabold">1.899</span></h3>
+										<h3><span class="text-lg2 extrabold">1.899</span>,00€</h3>
 									</div>
 									<p class="text-center">
 										<a class="btn btn-block btn-green slow" href="#" role="button"><?= txt('comprar') ?></a>
@@ -327,7 +327,7 @@
                     </div>
                     <div class="row">
                     	<div class="col-md-12">
-                    		<p><small>Ofertas para los próximos 12 meses de tu suscripción.</small></p>
+                    		<p><small>Ofertas validas para el primer año.</small></p>
                     	</div>
                     </div>
                 </div>

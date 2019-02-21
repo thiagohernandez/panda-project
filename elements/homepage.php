@@ -87,6 +87,8 @@
    </section>
    <!-- END HOME SECTION -->
 
+   <?php include ("./elements/form-sin-sentido.php"); ?>
+
 
     <!-- SERVICES SECTION -->
 	<section id="services" class="services-section clearfix bg-shape-logo-light-gray">
@@ -106,7 +108,7 @@
 				<div class="services scrollbar-styled padding__inner">
 					<div class="padding__inner">
 						<!-- Title -->
-						<h2 class="extrabold-title"><?= txt('ultima_tecnologia') ?><span class="nowrap"><?= txt('inteligencia_artificial') ?></span></h2>
+						<h2 class="extrabold-title"><?= txt('ultima_tecnologia') ?><span class=""><?= txt('inteligencia_artificial') ?></span></h2>
 						<h4 class="dark light no-pm"><?= txt('robots_advisors') ?></h4>
 						<div class="title-strips-over dark"></div>
 						<!-- Description -->
@@ -249,7 +251,7 @@
 	<?php include ("./elements/testimonios.php"); ?>
 
 	<?php include ("./elements/faq.php"); ?>
-
+	<?php include ("./elements/form-sin-sentido.php"); ?>
     <?php include ("./elements/panda_academy.php"); ?>
 
 	<?php include ("./elements/footer.php"); ?>
